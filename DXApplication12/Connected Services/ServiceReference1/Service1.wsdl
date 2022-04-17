@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://127.0.0.1:92/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://127.0.0.1:92/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://127.0.0.1:92/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServicioWebRH.Datos" />
+      <xsd:import schemaLocation="http://127.0.0.1:92/Service1.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://127.0.0.1:92/Service1.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/ServicioWebRH" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Trabajadores_InputMessage">
+    <wsdl:part name="parameters" element="tns:Trabajadores" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Trabajadores_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TrabajadoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscarTrabajadorxNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarTrabajadorxNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscarTrabajadorxNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarTrabajadorxNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListadoAgrupaciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListadoAgrupaciones" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListadoAgrupaciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListadoAgrupacionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameAgrupacionxId_InputMessage">
+    <wsdl:part name="parameters" element="tns:DameAgrupacionxId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameAgrupacionxId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DameAgrupacionxIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameAgrupacionxNombre_InputMessage">
+    <wsdl:part name="parameters" element="tns:DameAgrupacionxNombre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameAgrupacionxNombre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DameAgrupacionxNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxExp_InputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxExp" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxExp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxExpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxCi_InputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxCi" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxCi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxCiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameNombreDepartamentoPersonaxExp_InputMessage">
+    <wsdl:part name="parameters" element="tns:DameNombreDepartamentoPersonaxExp" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameNombreDepartamentoPersonaxExp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DameNombreDepartamentoPersonaxExpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TrazasEnRangoxListadoExp_InputMessage">
+    <wsdl:part name="parameters" element="tns:TrazasEnRangoxListadoExp" />
+  </wsdl:message>
+  <wsdl:message name="IService1_TrazasEnRangoxListadoExp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TrazasEnRangoxListadoExpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameCatOcupacionalxExp_InputMessage">
+    <wsdl:part name="parameters" element="tns:DameCatOcupacionalxExp" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameCatOcupacionalxExp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DameCatOcupacionalxExpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameCatOcupacionalxExpBaja_InputMessage">
+    <wsdl:part name="parameters" element="tns:DameCatOcupacionalxExpBaja" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DameCatOcupacionalxExpBaja_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DameCatOcupacionalxExpBajaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxExpDeep_InputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxExpDeep" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxExpDeep_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxExpDeepResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxCiDeep_InputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxCiDeep" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DamePersonaxCiDeep_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DamePersonaxCiDeepResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Cumples_InputMessage">
+    <wsdl:part name="parameters" element="tns:Cumples" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Cumples_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CumplesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CuantiaRetornar_InputMessage">
+    <wsdl:part name="parameters" element="tns:CuantiaRetornar" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CuantiaRetornar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CuantiaRetornarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AñosTrabajados_InputMessage">
+    <wsdl:part name="parameters" element="tns:AñosTrabajados" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AñosTrabajados_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AñosTrabajadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Cargo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Cargo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Cargo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SalarioBase_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalarioBase" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SalarioBase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalarioBaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Municipio_InputMessage">
+    <wsdl:part name="parameters" element="tns:Municipio" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Municipio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MunicipioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Registros_InputMessage">
+    <wsdl:part name="parameters" element="tns:Registros" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Registros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegistrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AltasxAño_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltasxAño" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AltasxAño_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltasxAñoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BajasxAño_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajasxAño" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BajasxAño_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajasxAñoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Categorizacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:Categorizacion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Categorizacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CategorizacionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Trabajadores">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Trabajadores" message="tns:IService1_Trabajadores_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/TrabajadoresResponse" message="tns:IService1_Trabajadores_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarTrabajadorxNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/BuscarTrabajadorxNombre" message="tns:IService1_BuscarTrabajadorxNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BuscarTrabajadorxNombreResponse" message="tns:IService1_BuscarTrabajadorxNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoAgrupaciones">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListadoAgrupaciones" message="tns:IService1_ListadoAgrupaciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListadoAgrupacionesResponse" message="tns:IService1_ListadoAgrupaciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DameAgrupacionxId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DameAgrupacionxId" message="tns:IService1_DameAgrupacionxId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DameAgrupacionxIdResponse" message="tns:IService1_DameAgrupacionxId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DameAgrupacionxNombre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DameAgrupacionxNombre" message="tns:IService1_DameAgrupacionxNombre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DameAgrupacionxNombreResponse" message="tns:IService1_DameAgrupacionxNombre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxExp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DamePersonaxExp" message="tns:IService1_DamePersonaxExp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DamePersonaxExpResponse" message="tns:IService1_DamePersonaxExp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxCi">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DamePersonaxCi" message="tns:IService1_DamePersonaxCi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DamePersonaxCiResponse" message="tns:IService1_DamePersonaxCi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DameNombreDepartamentoPersonaxExp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DameNombreDepartamentoPersonaxExp" message="tns:IService1_DameNombreDepartamentoPersonaxExp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DameNombreDepartamentoPersonaxExpResponse" message="tns:IService1_DameNombreDepartamentoPersonaxExp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TrazasEnRangoxListadoExp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/TrazasEnRangoxListadoExp" message="tns:IService1_TrazasEnRangoxListadoExp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/TrazasEnRangoxListadoExpResponse" message="tns:IService1_TrazasEnRangoxListadoExp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DameCatOcupacionalxExp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DameCatOcupacionalxExp" message="tns:IService1_DameCatOcupacionalxExp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DameCatOcupacionalxExpResponse" message="tns:IService1_DameCatOcupacionalxExp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DameCatOcupacionalxExpBaja">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DameCatOcupacionalxExpBaja" message="tns:IService1_DameCatOcupacionalxExpBaja_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DameCatOcupacionalxExpBajaResponse" message="tns:IService1_DameCatOcupacionalxExpBaja_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxExpDeep">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DamePersonaxExpDeep" message="tns:IService1_DamePersonaxExpDeep_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DamePersonaxExpDeepResponse" message="tns:IService1_DamePersonaxExpDeep_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxCiDeep">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DamePersonaxCiDeep" message="tns:IService1_DamePersonaxCiDeep_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DamePersonaxCiDeepResponse" message="tns:IService1_DamePersonaxCiDeep_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Cumples">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Cumples" message="tns:IService1_Cumples_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CumplesResponse" message="tns:IService1_Cumples_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CuantiaRetornar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CuantiaRetornar" message="tns:IService1_CuantiaRetornar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CuantiaRetornarResponse" message="tns:IService1_CuantiaRetornar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AñosTrabajados">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AñosTrabajados" message="tns:IService1_AñosTrabajados_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AñosTrabajadosResponse" message="tns:IService1_AñosTrabajados_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Cargo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Cargo" message="tns:IService1_Cargo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CargoResponse" message="tns:IService1_Cargo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalarioBase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SalarioBase" message="tns:IService1_SalarioBase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SalarioBaseResponse" message="tns:IService1_SalarioBase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Municipio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Municipio" message="tns:IService1_Municipio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/MunicipioResponse" message="tns:IService1_Municipio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Registros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Registros" message="tns:IService1_Registros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RegistrosResponse" message="tns:IService1_Registros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltasxAño">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AltasxAño" message="tns:IService1_AltasxAño_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AltasxAñoResponse" message="tns:IService1_AltasxAño_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajasxAño">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/BajasxAño" message="tns:IService1_BajasxAño_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BajasxAñoResponse" message="tns:IService1_BajasxAño_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Categorizacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Categorizacion" message="tns:IService1_Categorizacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CategorizacionResponse" message="tns:IService1_Categorizacion_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Trabajadores">
+      <soap:operation soapAction="http://tempuri.org/IService1/Trabajadores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarTrabajadorxNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/BuscarTrabajadorxNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoAgrupaciones">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListadoAgrupaciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DameAgrupacionxId">
+      <soap:operation soapAction="http://tempuri.org/IService1/DameAgrupacionxId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DameAgrupacionxNombre">
+      <soap:operation soapAction="http://tempuri.org/IService1/DameAgrupacionxNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxExp">
+      <soap:operation soapAction="http://tempuri.org/IService1/DamePersonaxExp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxCi">
+      <soap:operation soapAction="http://tempuri.org/IService1/DamePersonaxCi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DameNombreDepartamentoPersonaxExp">
+      <soap:operation soapAction="http://tempuri.org/IService1/DameNombreDepartamentoPersonaxExp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrazasEnRangoxListadoExp">
+      <soap:operation soapAction="http://tempuri.org/IService1/TrazasEnRangoxListadoExp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DameCatOcupacionalxExp">
+      <soap:operation soapAction="http://tempuri.org/IService1/DameCatOcupacionalxExp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DameCatOcupacionalxExpBaja">
+      <soap:operation soapAction="http://tempuri.org/IService1/DameCatOcupacionalxExpBaja" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxExpDeep">
+      <soap:operation soapAction="http://tempuri.org/IService1/DamePersonaxExpDeep" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DamePersonaxCiDeep">
+      <soap:operation soapAction="http://tempuri.org/IService1/DamePersonaxCiDeep" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cumples">
+      <soap:operation soapAction="http://tempuri.org/IService1/Cumples" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CuantiaRetornar">
+      <soap:operation soapAction="http://tempuri.org/IService1/CuantiaRetornar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AñosTrabajados">
+      <soap:operation soapAction="http://tempuri.org/IService1/AñosTrabajados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cargo">
+      <soap:operation soapAction="http://tempuri.org/IService1/Cargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalarioBase">
+      <soap:operation soapAction="http://tempuri.org/IService1/SalarioBase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Municipio">
+      <soap:operation soapAction="http://tempuri.org/IService1/Municipio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Registros">
+      <soap:operation soapAction="http://tempuri.org/IService1/Registros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltasxAño">
+      <soap:operation soapAction="http://tempuri.org/IService1/AltasxAño" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajasxAño">
+      <soap:operation soapAction="http://tempuri.org/IService1/BajasxAño" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Categorizacion">
+      <soap:operation soapAction="http://tempuri.org/IService1/Categorizacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://127.0.0.1:92/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

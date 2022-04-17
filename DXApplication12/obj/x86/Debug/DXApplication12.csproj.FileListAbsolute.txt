@@ -1,0 +1,990 @@
+c:\users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.Cache
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csprojResolveAssemblyReference.cache
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\bin\Debug\ReportesApp.pdb
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.config
+C:\Users\infanalista4\documents\visual studio 2010\Projects\DXApplication12\DXApplication12\bin\Debug\GenericCommandLink.dll
+D:\Projectos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.config
+D:\Projectos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe
+D:\Projectos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.pdb
+D:\Projectos\DXApplication12\DXApplication12\bin\Debug\GenericCommandLink.dll
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.Cache
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+D:\Projectos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.manifest
+D:\Projectos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.application
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.manifest
+D:\Projectos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.application
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\bin\Debug\ReportesApp.exe.config
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.exe
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\bin\Debug\ReportesApp.exe.manifest
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\bin\Debug\ReportesApp.application
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\bin\Debug\ReportesApp.exe
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\bin\Debug\ReportesApp.pdb
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\bin\Debug\controlRanking.dll
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\bin\Debug\controlRanking.pdb
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\DXApplication12.csprojResolveAssemblyReference.cache
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.loggin.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.Ranking.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.Cache
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.exe.manifest
+D:\Projectos\Reportes\ServerDesktop\DXApplication12(trabajando)\DXApplication12\obj\x86\Debug\ReportesApp.application
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.config
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.manifest
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.application
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.pdb
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\controlRanking.dll
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\controlRanking.pdb
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.loggin.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Ranking.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.Cache
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.manifest
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.application
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+D:\Projectos\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csprojResolveAssemblyReference.cache
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csprojResolveAssemblyReference.cache
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.loggin.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Ranking.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.Cache
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.config
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.manifest
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.application
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.pdb
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\controlRanking.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Win.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\controlRanking.pdb
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Win.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.manifest
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.application
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.config
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.manifest
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.application
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ReportesApp.pdb
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\controlRanking.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Win.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.CodeParser.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\controlRanking.pdb
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Win.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Win.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Win.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Win.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Win.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Map.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Map.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Map.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Map.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csprojAssemblyReference.cache
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.loggin.resources
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Ranking.resources
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.cache
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.manifest
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.application
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.CopyComplete
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+D:\PC Anterior\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.config
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.manifest
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ReportesApp.application
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ReportesApp.pdb
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Win.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.CodeParser.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\controlRanking.pdb
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Win.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Win.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Win.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Win.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Map.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Map.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Map.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Map.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csprojAssemblyReference.cache
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.loggin.resources
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Ranking.resources
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.cache
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.CoreCompileInputs.cache
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.manifest
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.application
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.CopyComplete
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+\\informatica6\Antivirus\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csprojAssemblyReference.cache
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.loggin.resources
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Ranking.resources
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.cache
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+C:\Users\joan.oceguera\Desktop\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csprojAssemblyReference.cache
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Form1.resources
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.ImagenSelector.resources
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.loggin.resources
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Properties.Resources.resources
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.Ranking.resources
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.WaitForm1.resources
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.GenerateResource.cache
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.licenses
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.pdb
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.config
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe.manifest
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.application
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.exe
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ReportesApp.pdb
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Win.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\controlRanking.pdb
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.TreeMap.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeMap.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Dashboard.v17.1.Win.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.UI.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Win.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Map.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraReports.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraMap.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraGauges.v17.1.Presets.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Dashboard.v17.1.Win.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Map.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Presets.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.exe.manifest
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\ReportesApp.application
+C:\Users\Joan\source\repos\DXApplication12\DXApplication12\obj\x86\Debug\DXApplication12.csproj.CopyComplete

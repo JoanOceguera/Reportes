@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/ServicioWebRH" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ServicioWebRH" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://127.0.0.1:92/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfAltasBajas">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AltasBajas" nillable="true" type="tns:AltasBajas" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAltasBajas" nillable="true" type="tns:ArrayOfAltasBajas" />
+  <xs:complexType name="AltasBajas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Edad" type="xs:int" />
+      <xs:element minOccurs="0" name="Exp" type="xs:int" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Plaza" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Raza" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sexo" type="ser:char" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AltasBajas" nillable="true" type="tns:AltasBajas" />
+  <xs:complexType name="ArrayOfBajas">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Bajas" nillable="true" type="tns:Bajas" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBajas" nillable="true" type="tns:ArrayOfBajas" />
+  <xs:complexType name="Bajas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Edad" type="xs:int" />
+      <xs:element minOccurs="0" name="Exp" type="xs:int" />
+      <xs:element minOccurs="0" name="FechaAlta" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FechaBaja" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sexo" type="ser:char" />
+      <xs:element minOccurs="0" name="catOcup" type="ser:char" />
+      <xs:element minOccurs="0" name="motivo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Bajas" nillable="true" type="tns:Bajas" />
+  <xs:complexType name="ArrayOfCategorias">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Categorias" nillable="true" type="tns:Categorias" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategorias" nillable="true" type="tns:ArrayOfCategorias" />
+  <xs:complexType name="Categorias">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CantidadCD" type="xs:int" />
+      <xs:element minOccurs="0" name="CantidadCDS" type="xs:int" />
+      <xs:element minOccurs="0" name="CantidadCE" type="xs:int" />
+      <xs:element minOccurs="0" name="CantidadH" type="xs:int" />
+      <xs:element minOccurs="0" name="CantidadM" type="xs:int" />
+      <xs:element minOccurs="0" name="CantidadTecnico" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Total" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Categorias" nillable="true" type="tns:Categorias" />
+</xs:schema>

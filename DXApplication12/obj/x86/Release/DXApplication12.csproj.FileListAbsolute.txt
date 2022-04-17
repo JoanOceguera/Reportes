@@ -1,0 +1,9 @@
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\ReportesApp.Form1.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\ReportesApp.ImagenSelector.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\ReportesApp.loggin.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\ReportesApp.Properties.Resources.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\ReportesApp.Ranking.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\ReportesApp.WaitForm1.resources
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\DXApplication12.csproj.GenerateResource.Cache
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\ReportesApp.exe.licenses
+C:\Users\joan.oceguera\Documents\Visual Studio 2017\Projects\Reportes\ServerDesktop\DXApplication12\DXApplication12\obj\x86\Release\DXApplication12.csprojResolveAssemblyReference.cache

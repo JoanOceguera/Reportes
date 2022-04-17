@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ReporteDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ReporteDBModelStoreContainer">
+    <EntitySet Name="Acceso" EntityType="ReporteDBModel.Store.Acceso" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Administrador" EntityType="ReporteDBModel.Store.Administrador" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Consecutivo" EntityType="ReporteDBModel.Store.Consecutivo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Entorno" EntityType="ReporteDBModel.Store.Entorno" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Equipo" EntityType="ReporteDBModel.Store.Equipo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProblemaPosible" EntityType="ReporteDBModel.Store.ProblemaPosible" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Reporte" EntityType="ReporteDBModel.Store.Reporte" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ReporteSolucionado" EntityType="ReporteDBModel.Store.ReporteSolucionado" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="ReporteDBModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_ProblemaPosible_Equipo1" Association="ReporteDBModel.Store.FK_ProblemaPosible_Equipo1">
+      <End Role="Equipo" EntitySet="Equipo" />
+      <End Role="ProblemaPosible" EntitySet="ProblemaPosible" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporte_Administrador" Association="ReporteDBModel.Store.FK_Reporte_Administrador">
+      <End Role="Administrador" EntitySet="Administrador" />
+      <End Role="Reporte" EntitySet="Reporte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporte_Entorno" Association="ReporteDBModel.Store.FK_Reporte_Entorno">
+      <End Role="Entorno" EntitySet="Entorno" />
+      <End Role="Reporte" EntitySet="Reporte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporte_Equipo" Association="ReporteDBModel.Store.FK_Reporte_Equipo">
+      <End Role="Equipo" EntitySet="Equipo" />
+      <End Role="Reporte" EntitySet="Reporte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporte_ProblemaPosible" Association="ReporteDBModel.Store.FK_Reporte_ProblemaPosible">
+      <End Role="ProblemaPosible" EntitySet="ProblemaPosible" />
+      <End Role="Reporte" EntitySet="Reporte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReporteSolucionado_Administrador" Association="ReporteDBModel.Store.FK_ReporteSolucionado_Administrador">
+      <End Role="Administrador" EntitySet="Administrador" />
+      <End Role="ReporteSolucionado" EntitySet="ReporteSolucionado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReporteSolucionado_Entorno" Association="ReporteDBModel.Store.FK_ReporteSolucionado_Entorno">
+      <End Role="Entorno" EntitySet="Entorno" />
+      <End Role="ReporteSolucionado" EntitySet="ReporteSolucionado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReporteSolucionado_Equipo" Association="ReporteDBModel.Store.FK_ReporteSolucionado_Equipo">
+      <End Role="Equipo" EntitySet="Equipo" />
+      <End Role="ReporteSolucionado" EntitySet="ReporteSolucionado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ReporteSolucionado_ProblemaPosible" Association="ReporteDBModel.Store.FK_ReporteSolucionado_ProblemaPosible">
+      <End Role="ProblemaPosible" EntitySet="ProblemaPosible" />
+      <End Role="ReporteSolucionado" EntitySet="ReporteSolucionado" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Acceso">
+    <Key>
+      <PropertyRef Name="idAcceso" />
+    </Key>
+    <Property Name="idAcceso" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="pass" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="idAdministrador" />
+    </Key>
+    <Property Name="idAdministrador" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="60" />
+    <Property Name="desuso" Type="int" Nullable="false" />
+    <Property Name="foto" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Consecutivo">
+    <Key>
+      <PropertyRef Name="idConsecutivo" />
+    </Key>
+    <Property Name="idConsecutivo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="consecutivoSecuencia" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Entorno">
+    <Key>
+      <PropertyRef Name="idEntorno" />
+    </Key>
+    <Property Name="idEntorno" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="infoEntorno" Type="varchar" Nullable="false" MaxLength="60" />
+    <Property Name="desuso" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Equipo">
+    <Key>
+      <PropertyRef Name="idEquipo" />
+    </Key>
+    <Property Name="idEquipo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" Nullable="false" MaxLength="60" />
+    <Property Name="desuso" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProblemaPosible">
+    <Key>
+      <PropertyRef Name="idProblemaPosible" />
+    </Key>
+    <Property Name="idProblemaPosible" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idEquipo" Type="int" Nullable="false" />
+    <Property Name="problemaInfo" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="desuso" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reporte">
+    <Key>
+      <PropertyRef Name="idReporte" />
+    </Key>
+    <Property Name="idReporte" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idEntorno" Type="int" />
+    <Property Name="idEquipo" Type="int" Nullable="false" />
+    <Property Name="idProblemaPosible" Type="int" Nullable="false" />
+    <Property Name="idAdministradorDefectando" Type="int" />
+    <Property Name="numero" Type="varchar" Nullable="false" MaxLength="7" />
+    <Property Name="fecha_hora" Type="datetime" Nullable="false" />
+    <Property Name="observacion" Type="text" />
+    <Property Name="nombreCliente" Type="varchar" Nullable="false" MaxLength="60" />
+    <Property Name="departamento" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="estado" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="nombrePC" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ReporteSolucionado">
+    <Key>
+      <PropertyRef Name="idReporteSolucionado" />
+    </Key>
+    <Property Name="idReporteSolucionado" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idEntorno" Type="int" />
+    <Property Name="idEquipo" Type="int" Nullable="false" />
+    <Property Name="idProblemaPosible" Type="int" Nullable="false" />
+    <Property Name="idAdministradorDefecto" Type="int" Nullable="false" />
+    <Property Name="numero" Type="varchar" Nullable="false" MaxLength="7" />
+    <Property Name="fecha_hora" Type="datetime" Nullable="false" />
+    <Property Name="fecha_horaFin" Type="datetime" Nullable="false" />
+    <Property Name="observacion" Type="text" />
+    <Property Name="nombreCliente" Type="varchar" Nullable="false" MaxLength="60" />
+    <Property Name="departamento" Type="varchar" Nullable="false" MaxLength="60" />
+    <Property Name="solucion" Type="text" Nullable="false" />
+    <Property Name="nombrePC" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_ProblemaPosible_Equipo1">
+    <End Role="Equipo" Type="ReporteDBModel.Store.Equipo" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ProblemaPosible" Type="ReporteDBModel.Store.ProblemaPosible" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="idEquipo" />
+      </Principal>
+      <Dependent Role="ProblemaPosible">
+        <PropertyRef Name="idEquipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporte_Administrador">
+    <End Role="Administrador" Type="ReporteDBModel.Store.Administrador" Multiplicity="0..1" />
+    <End Role="Reporte" Type="ReporteDBModel.Store.Reporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrador">
+        <PropertyRef Name="idAdministrador" />
+      </Principal>
+      <Dependent Role="Reporte">
+        <PropertyRef Name="idAdministradorDefectando" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporte_Entorno">
+    <End Role="Entorno" Type="ReporteDBModel.Store.Entorno" Multiplicity="0..1" />
+    <End Role="Reporte" Type="ReporteDBModel.Store.Reporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entorno">
+        <PropertyRef Name="idEntorno" />
+      </Principal>
+      <Dependent Role="Reporte">
+        <PropertyRef Name="idEntorno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporte_Equipo">
+    <End Role="Equipo" Type="ReporteDBModel.Store.Equipo" Multiplicity="1" />
+    <End Role="Reporte" Type="ReporteDBModel.Store.Reporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="idEquipo" />
+      </Principal>
+      <Dependent Role="Reporte">
+        <PropertyRef Name="idEquipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporte_ProblemaPosible">
+    <End Role="ProblemaPosible" Type="ReporteDBModel.Store.ProblemaPosible" Multiplicity="1" />
+    <End Role="Reporte" Type="ReporteDBModel.Store.Reporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProblemaPosible">
+        <PropertyRef Name="idProblemaPosible" />
+      </Principal>
+      <Dependent Role="Reporte">
+        <PropertyRef Name="idProblemaPosible" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ReporteSolucionado_Administrador">
+    <End Role="Administrador" Type="ReporteDBModel.Store.Administrador" Multiplicity="1" />
+    <End Role="ReporteSolucionado" Type="ReporteDBModel.Store.ReporteSolucionado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrador">
+        <PropertyRef Name="idAdministrador" />
+      </Principal>
+      <Dependent Role="ReporteSolucionado">
+        <PropertyRef Name="idAdministradorDefecto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ReporteSolucionado_Entorno">
+    <End Role="Entorno" Type="ReporteDBModel.Store.Entorno" Multiplicity="0..1" />
+    <End Role="ReporteSolucionado" Type="ReporteDBModel.Store.ReporteSolucionado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entorno">
+        <PropertyRef Name="idEntorno" />
+      </Principal>
+      <Dependent Role="ReporteSolucionado">
+        <PropertyRef Name="idEntorno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ReporteSolucionado_Equipo">
+    <End Role="Equipo" Type="ReporteDBModel.Store.Equipo" Multiplicity="1" />
+    <End Role="ReporteSolucionado" Type="ReporteDBModel.Store.ReporteSolucionado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipo">
+        <PropertyRef Name="idEquipo" />
+      </Principal>
+      <Dependent Role="ReporteSolucionado">
+        <PropertyRef Name="idEquipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ReporteSolucionado_ProblemaPosible">
+    <End Role="ProblemaPosible" Type="ReporteDBModel.Store.ProblemaPosible" Multiplicity="1" />
+    <End Role="ReporteSolucionado" Type="ReporteDBModel.Store.ReporteSolucionado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProblemaPosible">
+        <PropertyRef Name="idProblemaPosible" />
+      </Principal>
+      <Dependent Role="ReporteSolucionado">
+        <PropertyRef Name="idProblemaPosible" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

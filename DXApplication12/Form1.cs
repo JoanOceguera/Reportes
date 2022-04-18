@@ -24,7 +24,9 @@ namespace ReportesApp
         private String COLOR_REPORTEVISUAL_CON_ADMINISTRADOR = "LightGray";
         private String COLOR_REPORTEVISUAL_SIN_ADMINISTRADOR = "WhiteSmoke";
         private String COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR = "YellowGreen";
+        private String COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR_COMSUMIBLE = "RoyalBlue";
         private String COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR = "IndianRed";
+        private String COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR_COMSUMIBLE = "LightPink";
         private String COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR_TEXTCOLOR = "DimGray";
         private String COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR_TEXTCOLOR = "LightGray";
 
@@ -32,6 +34,8 @@ namespace ReportesApp
         private String QUITAR_TEXT = "quitar";
         List<DevExpress.XtraEditors.PanelControl> panelesInfo;
         ControlReporteadorUsuario controlRepo;
+        ProblemaPosibleControl controlProblema;
+        EquipoControl controlEquipo;
         Entorno entornoSeleccionadoEditar;
         Administrador administradorSeleccionadoEditar;
         Equipo equipoSeleccionadoEditar;
@@ -46,12 +50,23 @@ namespace ReportesApp
 
         public Form1()
         {
+            var reporteData = new ReporteDBEntities();
+            Service1Client servicio = new Service1Client();
+            controlProblema = new ProblemaPosibleControl();
+            controlRepo = new ControlReporteadorUsuario();
+            controlEquipo = new EquipoControl();
+            ReportesApp.ControlEntidades.ReporteControl creporte = new ControlEntidades.ReporteControl();
+            ReportesApp.ControlEntidades.AdministradorControl cadmin = new ControlEntidades.AdministradorControl();
             InitializeComponent();
-
+            personalRHBindingSource.DataSource = servicio.DameTodosTrabajadores().OrderBy(x => x.Nombre).ToList();;
+            equipoBindingSource.DataSource = controlEquipo.GetEquiposEnUso();
             estadosText = new Dictionary<String, String>();
             estadosText.Add(Estados.PendienteADefectar, "Pendiente");
             estadosText.Add(Estados.SiendoDefectado, "En proceso");
             estadosText.Add(Estados.Solucionado, "Solucionado");
+
+            
+            problemaPosibleBindingSource.DataSource = controlProblema.GetProblemasPosiblesEnUsoPorEquipo((int) comboEquipo.SelectedValue);
 
             this.panelesInfo = new List<DevExpress.XtraEditors.PanelControl>()
             {
@@ -59,10 +74,7 @@ namespace ReportesApp
                 this.pnl_solucionados,
                 this.pnl_administrar
             };            
-            controlRepo = new ControlReporteadorUsuario();
-            ReportesApp.ControlEntidades.ReporteControl creporte = new ControlEntidades.ReporteControl();
-            ReportesApp.ControlEntidades.AdministradorControl cadmin = new ControlEntidades.AdministradorControl();
-
+            
             this.PrepararReporteVisual();
 
             this.tempo = new Temporizador(INTERVALO_REFRESCO_REPOS_PENDIENTES);
@@ -89,6 +101,10 @@ namespace ReportesApp
             this.lbl_titulo.Text = "Reportes solucionados";
             this.pnl_filtrar.Visible = true;
         }
+        private void tileItem3_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        {
+            (new MenuAdministracionReportes(this.controlRepo)).ShowDialog();
+        }
         public void MostrarProgressCargando()
         {
             this.prog_cargandoSolucionados.Visible = true;
@@ -96,10 +112,6 @@ namespace ReportesApp
         public void OcultarProgressCargando()
         {
             this.prog_cargandoSolucionados.Visible = false;            
-        }
-        private void tileItem3_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
-        {
-
         }
         private void TraerAlFrente(DevExpress.XtraEditors.PanelControl panel)
         {
@@ -192,7 +204,7 @@ namespace ReportesApp
         public void PrepararReporteVisual()
         {
            // this.AdicionarReporteVisual(null);//limpia la lista de reportes
-            List<Reporte> reposPendientes = controlRepo.GetReportesPendientesNuevos();
+            List<Reporte> reposPendientes = controlRepo.GetReportesPendientesNuevos().OrderBy(x => x.orden).ToList();
             String cabecera;
             String descripcion;
             String entorno;
@@ -214,7 +226,15 @@ namespace ReportesApp
                     colorFondo = COLOR_REPORTEVISUAL_CON_ADMINISTRADOR;
                     if (repo.ProblemaPosible != null)
                     {
-                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR;                        
+                        if ((bool) repo.ProblemaPosible.consumible)
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR_COMSUMIBLE;
+                        }
+                        else
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR;
+                        }
+                        
                     }
                     else
                     {
@@ -229,17 +249,31 @@ namespace ReportesApp
                     colorFondo = COLOR_REPORTEVISUAL_SIN_ADMINISTRADOR;
                     if (repo.ProblemaPosible != null)
                     {
-                        colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR;
+                        if ((bool)repo.ProblemaPosible.consumible)
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR_COMSUMIBLE;
+                        }
+                        else
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR;
+                        }
+
                     }
                     else
                     {
                         colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR;
                     }
                 }
-                
-                repDentroRepoControl = new ReporteVisual(repo.idReporte, repo.numero, repo.Equipo.nombre, repo.ProblemaPosible.problemaInfo,
-                                                                       repo.fecha_hora, repo.nombreCliente, repo.estado, repo.nombrePC, nombreAdministrdor, repo.departamento, repo.observacion);
-                   
+                if (repo.orden != null)
+                {
+                    repDentroRepoControl = new ReporteVisual(repo.idReporte, repo.numero, repo.Equipo.nombre, repo.ProblemaPosible.problemaInfo,
+                    repo.fecha_hora, repo.nombreCliente, repo.estado, repo.nombrePC, nombreAdministrdor, repo.departamento, repo.observacion);
+                }
+                else
+                {
+                    repDentroRepoControl = new ReporteVisual(repo.idReporte, repo.numero, repo.Equipo.nombre, repo.ProblemaPosible.problemaInfo,
+                    repo.fecha_hora, repo.nombreCliente, repo.estado, repo.nombrePC, nombreAdministrdor, repo.departamento, repo.observacion);
+                }
                 cabecera = repo.numero + "  " + repo.nombreCliente + " : " + repo.departamento;
                 descripcion = repo.Equipo.nombre + " : " + repo.ProblemaPosible.problemaInfo;
                 fechaHora = repo.fecha_hora.ToString("hh:mm tt dd/M/yyyy", CultureInfo.InvariantCulture);
@@ -368,7 +402,6 @@ namespace ReportesApp
 
             reporteVisualControl.pict_administrador.Click += new EventHandler(pict_administrador_Click);
             reporteVisualControl.pnl_administrador.Click += new EventHandler(pict_administrador_Click);
-
             reporteVisualControl.lbl_cabecera.Click += new EventHandler(reportComponentClick);
             reporteVisualControl.lbl_descripcion.Click += new EventHandler(reportComponentClick);
             reporteVisualControl.pnl_fondo.Click += new EventHandler(reportComponentClick);
@@ -505,7 +538,14 @@ namespace ReportesApp
                     controlAdminVisual.SetColorNormalFondo(this.COLOR_REPORTEVISUAL_CON_ADMINISTRADOR);
                     if (repo != null && repo.ProblemaPosible != null)
                     {
-                        controlAdminVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR);
+                        if((bool) repo.ProblemaPosible.consumible)
+                        {
+                            controlAdminVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR_COMSUMIBLE);
+                        }
+                        else
+                        {
+                            controlAdminVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR);
+                        }
                     }
                     else
                     {
@@ -524,7 +564,14 @@ namespace ReportesApp
                     controlAdminVisual.SetColorNormalFondo(this.COLOR_REPORTEVISUAL_SIN_ADMINISTRADOR);
                     if (repo != null && repo.ProblemaPosible != null)
                     {
-                        controlAdminVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR);                        
+                        if((bool)repo.ProblemaPosible.consumible)
+                        {
+                            controlAdminVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR_COMSUMIBLE);
+                        }
+                        else
+                        {
+                            controlAdminVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR);
+                        }                        
                     }
                     else
                     {
@@ -536,6 +583,106 @@ namespace ReportesApp
             catch (CustomException msg)
             {
                 MessageBox.Show(msg.Mensaje);
+            }
+        }
+
+        public void ResetearReportes()
+        {
+            this.AdicionarReporteVisual(null);
+            DateTime fechaUltimoRepoPendienteTraido = new DateTime(100, 1, 1);
+            List<Reporte> reportes = controlRepo.GetReportesPendientesPosterioresA(fechaUltimoRepoPendienteTraido).OrderBy(x => x.orden).ToList();
+            String cabecera;
+            String descripcion;
+            String entorno;
+            String fechaHora;
+            String nombreAdministrdor;
+            String departamento;
+            String observacion;
+            ReporteVisual repDentroRepoControl;
+            String color;
+            String colorFondo;
+            String colorIndicadorIzq;
+
+            foreach (Reporte repo in reportes)
+            {
+                if (repo.Administrador != null)
+                {
+                    nombreAdministrdor = repo.Administrador.nombre;
+                    color = COLOR_NOMBRE_ADMINISTRADOR_ASIGNADO;
+                    colorFondo = COLOR_REPORTEVISUAL_CON_ADMINISTRADOR;
+                    if (repo.ProblemaPosible != null)
+                    {
+                        if ((bool)repo.ProblemaPosible.consumible)
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR_COMSUMIBLE;
+                        }
+                        else
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR;
+                        }
+
+                    }
+                    else
+                    {
+                        colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR;
+                    }
+
+                }
+                else
+                {
+                    nombreAdministrdor = String.Empty;
+                    color = COLOR_NOMBRE_ADMINISTRADOR_SINASIGNAR;
+                    colorFondo = COLOR_REPORTEVISUAL_SIN_ADMINISTRADOR;
+                    if (repo.ProblemaPosible != null)
+                    {
+                        if ((bool)repo.ProblemaPosible.consumible)
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR_COMSUMIBLE;
+                        }
+                        else
+                        {
+                            colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR;
+                        }
+
+                    }
+                    else
+                    {
+                        colorIndicadorIzq = COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR;
+                    }
+                }
+                if (repo.orden != null)
+                {
+                    repDentroRepoControl = new ReporteVisual(repo.idReporte, repo.numero, repo.Equipo.nombre, repo.ProblemaPosible.problemaInfo,
+                    repo.fecha_hora, repo.nombreCliente, repo.estado, repo.nombrePC, nombreAdministrdor, repo.departamento, repo.observacion);
+                }
+                else
+                {
+                    repDentroRepoControl = new ReporteVisual(repo.idReporte, repo.numero, repo.Equipo.nombre, repo.ProblemaPosible.problemaInfo,
+                    repo.fecha_hora, repo.nombreCliente, repo.estado, repo.nombrePC, nombreAdministrdor, repo.departamento, repo.observacion);
+                }
+                cabecera = repo.numero + "  " + repo.nombreCliente + " : " + repo.departamento;
+                descripcion = repo.Equipo.nombre + " : " + repo.ProblemaPosible.problemaInfo;
+                fechaHora = repo.fecha_hora.ToString("hh:mm tt dd/M/yyyy", CultureInfo.InvariantCulture);
+                if (repo.Entorno == null)
+                    entorno = String.Empty;
+                else entorno = repo.Entorno.infoEntorno;
+                departamento = repo.departamento;
+                observacion = repo.observacion;
+
+                WindowsFormsControlLibrary1.UserControl1 controlRepVis = this.CrearControlReporteVisual(cabecera, descripcion, entorno, fechaHora, repDentroRepoControl, nombreAdministrdor);
+                controlRepVis.NombreAdminColor = color;
+                controlRepVis.SetColorNormalFondo(colorFondo);
+                controlRepVis.SetColorIndicadorIzquierdo(colorIndicadorIzq);
+
+                if (nombreAdministrdor != String.Empty && repo.Administrador.foto != null)
+                {
+                    if (repo.Administrador.foto != null)
+                    {
+                        Image imgAdmin = ImagenConvert.byteArrayToImage(repo.Administrador.foto);
+                        controlRepVis.ImagenAdministrador = imgAdmin;
+                    }
+                }
+                this.AdicionarReporteVisual(controlRepVis);
             }
         }
 
@@ -737,7 +884,6 @@ namespace ReportesApp
                 this.dtg_Administrador.Rows[i].Cells[2].Value = EDITAR_TEXT;
             }
         }
-
 
         private void tab_CRUD_SelectedPageChanged(object sender, DevExpress.XtraTab.TabPageChangedEventArgs e)
         {
@@ -1231,8 +1377,7 @@ namespace ReportesApp
             }
             else
             {
-                List<Reporte> reposPendientes = controlRepo.GetReportesPendientes();
-                
+                List<Reporte> reposPendientes = controlRepo.GetReportesPendientes().OrderBy(x => x.orden).ToList();
                 for (int i = 0; i < this.splitContainerControl1.Panel1.Controls.Count; i++)
                 {                    
                     if (this.ActualizarEstadoRepoVisual((WindowsFormsControlLibrary1.UserControl1)this.splitContainerControl1.Panel1.Controls[i],reposPendientes))//si borro el componente visual
@@ -1260,7 +1405,8 @@ namespace ReportesApp
                 for ( i = 0; i < reposPendientes.Count; i++)
 			    {
                     Reporte reporte = reposPendientes[i];
-                    Controlador.CNX.Refresh(System.Data.Objects.RefreshMode.StoreWins, reporte);
+                    //Controlador.CNX.Refresh(System.Data.Objects.RefreshMode.StoreWins, reporte);
+                    Controlador.CNX.Entry(reporte).Reload();
                     if (controlVisual.Reporte.Numero == reporte.numero)//si existe el elemento en la lista visual
                     {
                         if (reporte.Administrador != null)//si el reporte de la bd tiene asignado un administrador
@@ -1274,7 +1420,14 @@ namespace ReportesApp
                                 controlVisual.SetColorNormalFondo(this.COLOR_REPORTEVISUAL_CON_ADMINISTRADOR);
                                 if (reporte.ProblemaPosible != null)
                                 {
-                                    controlVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR);
+                                    if((bool)reporte.ProblemaPosible.consumible)
+                                    {
+                                        controlVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR_COMSUMIBLE);
+                                    }
+                                    else
+                                    {
+                                        controlVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_CON_ADMINISTRADOR);
+                                    }
                                 }
                                 else
                                 {
@@ -1297,7 +1450,14 @@ namespace ReportesApp
                             controlVisual.SetColorNormalFondo(this.COLOR_REPORTEVISUAL_SIN_ADMINISTRADOR);
                             if (reporte.ProblemaPosible != null)
                             {
-                                controlVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR);
+                                if ((bool)reporte.ProblemaPosible.consumible)
+                                {
+                                    controlVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR_COMSUMIBLE);
+                                }
+                                else
+                                {
+                                    controlVisual.SetColorIndicadorIzquierdo(this.COLOR_INDICADORIZQUIERDO_SIN_ADMINISTRADOR);
+                                }
                             }
                             else
                             {
@@ -1331,17 +1491,17 @@ namespace ReportesApp
         private void buttonAñadirReporte_Click(object sender, EventArgs e)
         {
             var servicio = new Service1Client();
-            var problema = this.comboProblema.EditValue;
+            var problema = comboProblema.SelectedValue;
             var trabajador = this.comboTrabajadores.Text;
             var nombrePC = this.textEditNombrePC.Text;
-            var observacion = this.textEditObservacion.Text;
+            var observacion = this.textObservacion.Text;
 
             if (trabajador == null || (trabajador.Equals("")))
             {
                 MessageBox.Show("No ha seleccionado un trabajador, por favor seleccione uno");
             }
             else
-            if (problema == null || (problema.Equals("")))
+            if (problema == null)
             {
                 MessageBox.Show("No ha seleccionado un problema, por favor seleccione uno");
             }
@@ -1349,18 +1509,19 @@ namespace ReportesApp
             {
                 var nuevoReporte = new Reporte()
                 {
-                    departamento = servicio.DameNombreDepartamentoPersonaxExp((int)this.comboTrabajadores.EditValue),
+                    departamento = servicio.DameNombreDepartamentoPersonaxExp((int)comboTrabajadores.SelectedValue),
                     estado = "p",
                     fecha_hora = DateTime.Now,
                     observacion = observacion,
                     nombrePC = nombrePC,
-                    idEquipo = (int) this.comboEquipo.EditValue,
+                    idEquipo = (int) comboEquipo.SelectedValue,
                     numero = GetAndSetNextNumero(),
-                    idProblemaPosible = (int) problema
+                    idProblemaPosible = (int) problema,
+                    nombreCliente = trabajador
                 };
                 try
                 {
-                    cnx.Reporte.AddObject(nuevoReporte);
+                    cnx.Reporte.Add(nuevoReporte);
                     cnx.SaveChanges();
                 }
                 catch (Exception msg)
@@ -1398,7 +1559,7 @@ namespace ReportesApp
         {
             try
             {
-                cnx.Consecutivo.AddObject(consecutivo);
+                cnx.Consecutivo.Add(consecutivo);
                 cnx.SaveChanges();
             }
             catch (Exception msg)
@@ -1425,6 +1586,23 @@ namespace ReportesApp
             String numero = cons.consecutivoSecuencia.ToString() + dtn.Substring(0, 2) + dtn.Substring(2, 2);
 
             return numero;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'reporteDBDataSet1.Equipo' Puede moverla o quitarla según sea necesario.
+            this.equipoTableAdapter.Fill(this.reporteDBDataSet1.Equipo);
+            // TODO: esta línea de código carga datos en la tabla 'reporteDBDataSet.ProblemaPosible' Puede moverla o quitarla según sea necesario.
+            this.problemaPosibleTableAdapter.Fill(this.reporteDBDataSet.ProblemaPosible);
+
+        }
+
+        private void comboEquipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboEquipo.SelectedValue != null)
+            {
+                problemaPosibleBindingSource.DataSource = controlProblema.GetProblemasPosiblesEnUsoPorEquipo((int)comboEquipo.SelectedValue);
+            }            
         }
     }
 }

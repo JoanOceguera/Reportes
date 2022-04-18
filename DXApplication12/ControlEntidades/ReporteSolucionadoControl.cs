@@ -140,7 +140,7 @@ namespace ReportesApp.ControlEntidades
                 {
                     if (reporteSolucionado.fecha_horaFin == null)
                         reporteSolucionado.fecha_horaFin = DateTime.Now;
-                    cnx.ReporteSolucionado.AddObject(reporteSolucionado);
+                    cnx.ReporteSolucionado.Add(reporteSolucionado);
                     cnx.SaveChanges();
                 }
                 else //de existir un reporteSolucionado con el mismo numero ke el ke se intenta adicionar

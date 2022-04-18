@@ -71,6 +71,8 @@
           <Property Name="departamento" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="estado" Type="varchar" MaxLength="1" Nullable="false" />
           <Property Name="nombrePC" Type="varchar" MaxLength="50" />
+          <Property Name="orden" Type="int" />
+          <Property Name="observacionTecnica" Type="text" />
         </EntityType>
         <EntityType Name="ReporteSolucionado">
           <Key>
@@ -388,6 +390,8 @@
           <NavigationProperty Name="Entorno" Relationship="ReporteDBModel.FK_Reporte_Entorno" FromRole="Reporte" ToRole="Entorno" />
           <NavigationProperty Name="Equipo" Relationship="ReporteDBModel.FK_Reporte_Equipo" FromRole="Reporte" ToRole="Equipo" />
           <NavigationProperty Name="ProblemaPosible" Relationship="ReporteDBModel.FK_Reporte_ProblemaPosible" FromRole="Reporte" ToRole="ProblemaPosible" />
+          <Property Name="orden" Type="Int32" />
+          <Property Name="observacionTecnica" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="ReporteSolucionado">
           <Key>
@@ -596,6 +600,8 @@
           <EntitySetMapping Name="Reporte">
             <EntityTypeMapping TypeName="ReporteDBModel.Reporte">
               <MappingFragment StoreEntitySet="Reporte">
+                <ScalarProperty Name="observacionTecnica" ColumnName="observacionTecnica" />
+                <ScalarProperty Name="orden" ColumnName="orden" />
                 <ScalarProperty Name="idReporte" ColumnName="idReporte" />
                 <ScalarProperty Name="idEntorno" ColumnName="idEntorno" />
                 <ScalarProperty Name="idEquipo" ColumnName="idEquipo" />
@@ -658,19 +664,20 @@
         <DesignerProperty Name="EnablePluralization" Value="False" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
         <DesignerProperty Name="UseLegacyProvider" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
       <Diagram Name="Model1">
         <EntityTypeShape EntityType="ReporteDBModel.Acceso" Width="1.5" PointX="0.5" PointY="0.625" Height="1.4033821614583333" IsExpanded="true" />
-        <EntityTypeShape EntityType="ReporteDBModel.Administrador" Width="1.5" PointX="6.875" PointY="0.5" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReporteDBModel.Administrador" Width="1.5" PointX="7" PointY="0.5" Height="2.1725878906249996" IsExpanded="true" />
         <EntityTypeShape EntityType="ReporteDBModel.Consecutivo" Width="1.5" PointX="2.5" PointY="0.625" Height="1.4033821614583326" IsExpanded="true" />
         <EntityTypeShape EntityType="ReporteDBModel.Entorno" Width="1.5" PointX="4.5" PointY="3.375" Height="1.9802864583333317" IsExpanded="true" />
-        <EntityTypeShape EntityType="ReporteDBModel.Equipo" Width="1.5" PointX="1.875" PointY="7.75" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReporteDBModel.Equipo" Width="1.5" PointX="4.375" PointY="9.25" Height="2.1725878906249996" IsExpanded="true" />
         <EntityTypeShape EntityType="ReporteDBModel.ProblemaPosible" Width="1.5" PointX="4.5" PointY="5.875" Height="2.3648893229166674" IsExpanded="true" />
         <EntityTypeShape EntityType="ReporteDBModel.Reporte" Width="1.5" PointX="2" PointY="3.125" Height="4.0956022135416674" IsExpanded="true" />
-        <EntityTypeShape EntityType="ReporteDBModel.ReporteSolucionado" Width="1.5" PointX="7" PointY="3" Height="4.2879036458333317" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReporteDBModel.ReporteSolucionado" Width="1.5" PointX="7" PointY="3.625" Height="4.2879036458333317" IsExpanded="true" />
         <EntityTypeShape EntityType="ReporteDBModel.sysdiagrams" Width="1.5" PointX="10.375" PointY="7.875" Height="1.9802864583333317" IsExpanded="true" />
         <AssociationConnector Association="ReporteDBModel.FK_Reporte_Administrador" ManuallyRouted="false">
           <ConnectorPoint PointX="4.5" PointY="2.8817350260416665" />

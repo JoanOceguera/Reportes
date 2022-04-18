@@ -60,6 +60,8 @@
     <EntitySetMapping Name="Reporte">
       <EntityTypeMapping TypeName="ReporteDBModel.Reporte">
         <MappingFragment StoreEntitySet="Reporte">
+          <ScalarProperty Name="observacionTecnica" ColumnName="observacionTecnica" />
+          <ScalarProperty Name="orden" ColumnName="orden" />
           <ScalarProperty Name="idReporte" ColumnName="idReporte" />
           <ScalarProperty Name="idEntorno" ColumnName="idEntorno" />
           <ScalarProperty Name="idEquipo" ColumnName="idEquipo" />

@@ -88,7 +88,7 @@ namespace ReportesApp.ControlEntidades
         {
             try
             {
-                cnx.Administrador.AddObject(administrador);
+                cnx.Administrador.Add(administrador);
                 cnx.SaveChanges();
             }
             catch (Exception msg)
@@ -107,7 +107,8 @@ namespace ReportesApp.ControlEntidades
                 Administrador administ = this.GetAdministrador(administrador.idAdministrador);
                 if (administ != null)
                 {
-                    cnx.Administrador.ApplyCurrentValues(administ);
+                    administ = administrador;
+                    //cnx.Administrador.ApplyCurrentValues(administ);
                     cnx.SaveChanges();
                 }
             }

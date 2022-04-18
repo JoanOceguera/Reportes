@@ -39,6 +39,14 @@ namespace ReportesApp.ControlEntidades
                                     select problema).ToList();
             return problem;
         }
+
+        public List<ProblemaPosible> GetProblemasPosiblesEnUsoPorEquipo(int idEquipo)
+        {
+            List<ProblemaPosible> problem = (from problema in cnx.ProblemaPosible
+                                             where problema.desuso == 0 && problema.idEquipo == idEquipo
+                                             select problema).ToList();
+            return problem;
+        }
         public List<ProblemaPosible> GetProblemasPosiblesEnDesUso()
         {
             List<ProblemaPosible> problem = (from problema in cnx.ProblemaPosible
@@ -58,7 +66,8 @@ namespace ReportesApp.ControlEntidades
                 ProblemaPosible prob = this.GetProblemaPosible(problemaPosible.idProblemaPosible);
                 if (prob != null)
                 {
-                    cnx.ProblemaPosible.ApplyCurrentValues(prob);
+                    prob = problemaPosible;
+                    //cnx.ProblemaPosible.ApplyCurrentValues(prob);
                     cnx.SaveChanges();
                 }
             }

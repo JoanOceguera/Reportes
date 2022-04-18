@@ -1,4 +1,8 @@
-﻿namespace ReportesApp
+﻿using DevExpress.XtraEditors;
+using ReportesApp.Properties;
+using System.Windows.Forms;
+
+namespace ReportesApp
 {
     partial class Form1
     {
@@ -83,6 +87,7 @@
             this.tileGroup1 = new DevExpress.XtraEditors.TileGroup();
             this.tileItem1 = new DevExpress.XtraEditors.TileItem();
             this.tileItem2 = new DevExpress.XtraEditors.TileItem();
+            this.tileItem3 = new DevExpress.XtraEditors.TileItem();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
             this.splitterControl1 = new DevExpress.XtraEditors.SplitterControl();
             this.pnl_pendientes = new DevExpress.XtraEditors.PanelControl();
@@ -118,6 +123,44 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl7 = new DevExpress.XtraEditors.PanelControl();
+            this.equipoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.reporteDBDataSet1 = new ReportesApp.ReporteDBDataSet1();
+            this.problemaPosibleBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.reporteDBDataSet = new ReportesApp.reporteDBDataSet();
+            this.personalRHBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pnl_solucionados = new DevExpress.XtraEditors.PanelControl();
+            this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.userControlSol2 = new WindowsFormsControlLibrary1.UserControlSol();
+            this.userControlSol1 = new WindowsFormsControlLibrary1.UserControlSol();
+            this.panelControl9 = new DevExpress.XtraEditors.PanelControl();
+            this.txt_solucionSol = new System.Windows.Forms.TextBox();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_problemaSol = new System.Windows.Forms.TextBox();
+            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_observacionSol = new System.Windows.Forms.TextBox();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_administradorSol = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_usuarioSol = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_departamentoSol = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_pcOrigenSol = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_equipoSol = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_numeroSol = new DevExpress.XtraEditors.TextEdit();
+            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.worker_mostrarSolucionados = new System.ComponentModel.BackgroundWorker();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
+            this.problemaPosibleTableAdapter = new ReportesApp.reporteDBDataSet1TableAdapters.ProblemaPosibleTableAdapter();
+            this.equipoTableAdapter = new ReportesApp.ReporteDBDataSet1TableAdapters.EquipoTableAdapter();
+            this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
+            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
             this.pnl_administrar = new DevExpress.XtraEditors.PanelControl();
             this.btn_adicionarEquipos = new DevExpress.XtraTab.XtraTabControl();
             this.entornos = new DevExpress.XtraTab.XtraTabPage();
@@ -255,68 +298,34 @@
             this.label4 = new System.Windows.Forms.Label();
             this.reportes = new DevExpress.XtraTab.XtraTabPage();
             this.panel45 = new System.Windows.Forms.Panel();
+            this.textEditNombrePC = new System.Windows.Forms.TextBox();
+            this.textObservacion = new System.Windows.Forms.TextBox();
+            this.comboEquipo = new System.Windows.Forms.ComboBox();
+            this.comboProblema = new System.Windows.Forms.ComboBox();
+            this.comboTrabajadores = new System.Windows.Forms.ComboBox();
             this.buttonAñadirReporte = new System.Windows.Forms.Button();
             this.labelObservacion = new System.Windows.Forms.Label();
             this.labelNombrePC = new System.Windows.Forms.Label();
             this.labelProblema = new System.Windows.Forms.Label();
-            this.comboProblema = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.reporteDBEntitiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.labelEquipo = new System.Windows.Forms.Label();
-            this.comboEquipo = new DevExpress.XtraEditors.ComboBoxEdit();
             this.panel47 = new System.Windows.Forms.Panel();
             this.label26 = new System.Windows.Forms.Label();
             this.labelTrabajadores = new System.Windows.Forms.Label();
-            this.comboTrabajadores = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.personalRHBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.textEditNombrePC = new DevExpress.XtraEditors.TextEdit();
-            this.textEditObservacion = new DevExpress.XtraEditors.TextEdit();
             this.panel44 = new System.Windows.Forms.Panel();
-            this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
-            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
-            this.pnl_solucionados = new DevExpress.XtraEditors.PanelControl();
-            this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.userControlSol2 = new WindowsFormsControlLibrary1.UserControlSol();
-            this.userControlSol1 = new WindowsFormsControlLibrary1.UserControlSol();
-            this.panelControl9 = new DevExpress.XtraEditors.PanelControl();
-            this.txt_solucionSol = new System.Windows.Forms.TextBox();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_problemaSol = new System.Windows.Forms.TextBox();
-            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_observacionSol = new System.Windows.Forms.TextBox();
-            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_administradorSol = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_usuarioSol = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_departamentoSol = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_pcOrigenSol = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_equipoSol = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_numeroSol = new DevExpress.XtraEditors.TextEdit();
-            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
-            this.worker_mostrarSolucionados = new System.ComponentModel.BackgroundWorker();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
-            this.panelControl2.SuspendLayout();
             this.pnl_filtrar.SuspendLayout();
             this.panel37.SuspendLayout();
             this.panel39.SuspendLayout();
             this.panel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_pendientes)).BeginInit();
-            this.pnl_pendientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
-            this.splitContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl3)).BeginInit();
-            this.splitContainerControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl3.Panel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl3.Panel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).BeginInit();
-            this.panelControl6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_estado.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_administrador.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_usuario.Properties)).BeginInit();
@@ -329,11 +338,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtg_soluciones)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.equipoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reporteDBDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.problemaPosibleBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reporteDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personalRHBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pnl_solucionados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2.Panel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2.Panel2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_administradorSol.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_usuarioSol.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_departamentoSol.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_pcOrigenSol.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_equipoSol.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_numeroSol.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_administrar)).BeginInit();
-            this.pnl_administrar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_adicionarEquipos)).BeginInit();
             this.btn_adicionarEquipos.SuspendLayout();
-            this.entornos.SuspendLayout();
             this.pnl_entorno.SuspendLayout();
             this.pnl_verEntornos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hyperLinkEdit1.Properties)).BeginInit();
@@ -350,7 +376,6 @@
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.check_entornoAdicionarEnUso.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_nombreEntornoAdicionar.Properties)).BeginInit();
-            this.equipos.SuspendLayout();
             this.pnl_equipos.SuspendLayout();
             this.pnl_editarEquipo.SuspendLayout();
             this.panel23.SuspendLayout();
@@ -373,7 +398,6 @@
             this.panel36.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.check_equipoadicionar.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_nombreEquipoAdicionar.Properties)).BeginInit();
-            this.administradores.SuspendLayout();
             this.pnl_administrador.SuspendLayout();
             this.pnl_verAdministrador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hyperLinkEdit2.Properties)).BeginInit();
@@ -394,32 +418,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.text_dirFotoAdminAdicionar.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.check_administradorEditarEnUsoAdicionar.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_nombreAdministradorAdicionar.Properties)).BeginInit();
-            this.reportes.SuspendLayout();
             this.panel45.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboProblema.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reporteDBEntitiesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboEquipo.Properties)).BeginInit();
             this.panel47.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboTrabajadores.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personalRHBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditNombrePC.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditObservacion.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
-            this.panelControl5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pnl_solucionados)).BeginInit();
-            this.pnl_solucionados.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).BeginInit();
-            this.splitContainerControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl9)).BeginInit();
-            this.panelControl9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_administradorSol.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_usuarioSol.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_departamentoSol.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_pcOrigenSol.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_equipoSol.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_numeroSol.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -464,7 +464,7 @@
             this.pnl_filtrar.Controls.Add(this.button9);
             this.pnl_filtrar.Controls.Add(this.txt_nombreFilter);
             this.pnl_filtrar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnl_filtrar.Location = new System.Drawing.Point(495, 0);
+            this.pnl_filtrar.Location = new System.Drawing.Point(807, 0);
             this.pnl_filtrar.Name = "pnl_filtrar";
             this.pnl_filtrar.Size = new System.Drawing.Size(311, 24);
             this.pnl_filtrar.TabIndex = 40;
@@ -513,7 +513,7 @@
             // 
             this.panel43.BackColor = System.Drawing.Color.DarkTurquoise;
             this.panel43.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel43.Location = new System.Drawing.Point(806, 0);
+            this.panel43.Location = new System.Drawing.Point(1118, 0);
             this.panel43.Name = "panel43";
             this.panel43.Size = new System.Drawing.Size(11, 24);
             this.panel43.TabIndex = 39;
@@ -728,16 +728,18 @@
             // 
             this.tileGroup1.Items.Add(this.tileItem1);
             this.tileGroup1.Items.Add(this.tileItem2);
+            this.tileGroup1.Items.Add(this.tileItem3);
             this.tileGroup1.Name = "tileGroup1";
             this.tileGroup1.Text = "tileGroup1";
             // 
             // tileItem1
             // 
+            this.tileItem1.BackgroundImage = global::ReportesApp.Properties.Resources.florroja;
             this.tileItem1.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
             tileItemElement1.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tileItemElement1.Appearance.Normal.Options.UseFont = true;
             tileItemElement1.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
-            tileItemElement1.Text = "Pendientes";
+            tileItemElement1.Text = "Reportes";
             tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopRight;
             this.tileItem1.Elements.Add(tileItemElement1);
             this.tileItem1.Name = "tileItem1";
@@ -746,6 +748,7 @@
             // 
             // tileItem2
             // 
+            this.tileItem2.BackgroundImage = global::ReportesApp.Properties.Resources.floramarilla;
             this.tileItem2.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
             tileItemElement2.Appearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tileItemElement2.Appearance.Normal.Options.UseFont = true;
@@ -756,6 +759,17 @@
             this.tileItem2.Name = "tileItem2";
             this.tileItem2.Padding = new System.Windows.Forms.Padding(10, 8, 6, 10);
             this.tileItem2.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItem2_ItemClick_1);
+            // 
+            // tileItem3
+            // 
+            this.tileItem3.BackgroundImage = global::ReportesApp.Properties.Resources.cielo;
+            this.tileItem3.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomLeft;
+            this.tileItem3.Elements.Add(tileItemElement1);
+            this.tileItem3.Id = 2;
+            this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
+            this.tileItem3.Name = "tileItem3";
+            this.tileItem3.Padding = new System.Windows.Forms.Padding(10, 8, 6, 10);
+            this.tileItem3.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItem3_ItemClick);
             // 
             // tileGroup2
             // 
@@ -805,13 +819,27 @@
             this.splitContainerControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.splitContainerControl1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainerControl1.Name = "splitContainerControl1";
+            // 
+            // 
+            // 
             this.splitContainerControl1.Panel1.AutoScroll = true;
             this.splitContainerControl1.Panel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.splitContainerControl1.Panel1.Location = new System.Drawing.Point(2, 2);
+            this.splitContainerControl1.Panel1.Name = "";
+            this.splitContainerControl1.Panel1.Size = new System.Drawing.Size(1231, 440);
+            this.splitContainerControl1.Panel1.TabIndex = 0;
             this.splitContainerControl1.Panel1.Text = "Panel1";
+            // 
+            // 
+            // 
             this.splitContainerControl1.Panel2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
             this.splitContainerControl1.Panel2.Controls.Add(this.splitContainerControl3);
             this.splitContainerControl1.Panel2.Controls.Add(this.panelControl7);
+            this.splitContainerControl1.Panel2.Location = new System.Drawing.Point(2, 458);
             this.splitContainerControl1.Panel2.MinSize = 175;
+            this.splitContainerControl1.Panel2.Name = "";
+            this.splitContainerControl1.Panel2.Size = new System.Drawing.Size(1231, 185);
+            this.splitContainerControl1.Panel2.TabIndex = 1;
             this.splitContainerControl1.Panel2.Text = "Panel2";
             this.splitContainerControl1.Size = new System.Drawing.Size(1235, 645);
             this.splitContainerControl1.SplitterPosition = 189;
@@ -829,10 +857,24 @@
             this.splitContainerControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl3.Location = new System.Drawing.Point(0, 0);
             this.splitContainerControl3.Name = "splitContainerControl3";
+            // 
+            // 
+            // 
             this.splitContainerControl3.Panel1.Controls.Add(this.panelControl6);
+            this.splitContainerControl3.Panel1.Location = new System.Drawing.Point(0, 0);
             this.splitContainerControl3.Panel1.MinSize = 200;
+            this.splitContainerControl3.Panel1.Name = "";
+            this.splitContainerControl3.Panel1.Size = new System.Drawing.Size(751, 185);
+            this.splitContainerControl3.Panel1.TabIndex = 0;
             this.splitContainerControl3.Panel1.Text = "Panel1";
+            // 
+            // 
+            // 
             this.splitContainerControl3.Panel2.Controls.Add(this.panel1);
+            this.splitContainerControl3.Panel2.Location = new System.Drawing.Point(763, 0);
+            this.splitContainerControl3.Panel2.Name = "";
+            this.splitContainerControl3.Panel2.Size = new System.Drawing.Size(466, 185);
+            this.splitContainerControl3.Panel2.TabIndex = 1;
             this.splitContainerControl3.Panel2.Text = "Panel2";
             this.splitContainerControl3.Size = new System.Drawing.Size(1229, 185);
             this.splitContainerControl3.SplitterPosition = 751;
@@ -946,6 +988,9 @@
             // 
             this.txt_estado.Location = new System.Drawing.Point(73, 54);
             this.txt_estado.Name = "txt_estado";
+            // 
+            // 
+            // 
             this.txt_estado.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txt_estado.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_estado.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
@@ -973,6 +1018,9 @@
             // 
             this.txt_administrador.Location = new System.Drawing.Point(282, 51);
             this.txt_administrador.Name = "txt_administrador";
+            // 
+            // 
+            // 
             this.txt_administrador.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txt_administrador.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_administrador.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
@@ -1000,6 +1048,9 @@
             // 
             this.txt_usuario.Location = new System.Drawing.Point(282, 4);
             this.txt_usuario.Name = "txt_usuario";
+            // 
+            // 
+            // 
             this.txt_usuario.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txt_usuario.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_usuario.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
@@ -1027,6 +1078,9 @@
             // 
             this.txt_departamento.Location = new System.Drawing.Point(282, 28);
             this.txt_departamento.Name = "txt_departamento";
+            // 
+            // 
+            // 
             this.txt_departamento.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txt_departamento.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_departamento.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
@@ -1054,6 +1108,9 @@
             // 
             this.txt_pcorigen.Location = new System.Drawing.Point(583, 6);
             this.txt_pcorigen.Name = "txt_pcorigen";
+            // 
+            // 
+            // 
             this.txt_pcorigen.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txt_pcorigen.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_pcorigen.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
@@ -1069,6 +1126,9 @@
             // 
             this.txt_equipo.Location = new System.Drawing.Point(73, 29);
             this.txt_equipo.Name = "txt_equipo";
+            // 
+            // 
+            // 
             this.txt_equipo.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txt_equipo.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_equipo.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
@@ -1096,6 +1156,9 @@
             // 
             this.txt_numero.Location = new System.Drawing.Point(73, 5);
             this.txt_numero.Name = "txt_numero";
+            // 
+            // 
+            // 
             this.txt_numero.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.txt_numero.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_numero.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
@@ -1240,6 +1303,468 @@
             this.panelControl7.Size = new System.Drawing.Size(2, 185);
             this.panelControl7.TabIndex = 23;
             // 
+            // equipoBindingSource
+            // 
+            this.equipoBindingSource.DataMember = "Equipo";
+            this.equipoBindingSource.DataSource = this.reporteDBDataSet1;
+            // 
+            // reporteDBDataSet1
+            // 
+            this.reporteDBDataSet1.DataSetName = "ReporteDBDataSet1";
+            this.reporteDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // problemaPosibleBindingSource
+            // 
+            this.problemaPosibleBindingSource.DataMember = "ProblemaPosible";
+            this.problemaPosibleBindingSource.DataSource = this.reporteDBDataSet;
+            // 
+            // reporteDBDataSet
+            // 
+            this.reporteDBDataSet.DataSetName = "ReporteDBDataSet";
+            this.reporteDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // personalRHBindingSource
+            // 
+            this.personalRHBindingSource.DataSource = typeof(ReportesApp.ServiceReference1.PersonalRH);
+            this.personalRHBindingSource.Sort = "Nombre";
+            // 
+            // pnl_solucionados
+            // 
+            this.pnl_solucionados.Controls.Add(this.splitContainerControl2);
+            this.pnl_solucionados.Controls.Add(this.panelControl4);
+            this.pnl_solucionados.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_solucionados.Location = new System.Drawing.Point(131, 24);
+            this.pnl_solucionados.Name = "pnl_solucionados";
+            this.pnl_solucionados.Size = new System.Drawing.Size(1239, 649);
+            this.pnl_solucionados.TabIndex = 5;
+            this.pnl_solucionados.Visible = false;
+            // 
+            // splitContainerControl2
+            // 
+            this.splitContainerControl2.Appearance.BackColor = System.Drawing.Color.LightGray;
+            this.splitContainerControl2.Appearance.Options.UseBackColor = true;
+            this.splitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerControl2.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.Panel2;
+            this.splitContainerControl2.Horizontal = false;
+            this.splitContainerControl2.Location = new System.Drawing.Point(2, 2);
+            this.splitContainerControl2.LookAndFeel.SkinName = "Metropolis";
+            this.splitContainerControl2.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.splitContainerControl2.Margin = new System.Windows.Forms.Padding(2);
+            this.splitContainerControl2.Name = "splitContainerControl2";
+            // 
+            // 
+            // 
+            this.splitContainerControl2.Panel1.AutoScroll = true;
+            this.splitContainerControl2.Panel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.splitContainerControl2.Panel1.Controls.Add(this.userControlSol2);
+            this.splitContainerControl2.Panel1.Controls.Add(this.userControlSol1);
+            this.splitContainerControl2.Panel1.Location = new System.Drawing.Point(2, 2);
+            this.splitContainerControl2.Panel1.Name = "";
+            this.splitContainerControl2.Panel1.Size = new System.Drawing.Size(1231, 477);
+            this.splitContainerControl2.Panel1.TabIndex = 0;
+            this.splitContainerControl2.Panel1.Text = "Panel1";
+            // 
+            // 
+            // 
+            this.splitContainerControl2.Panel2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.splitContainerControl2.Panel2.Controls.Add(this.panelControl9);
+            this.splitContainerControl2.Panel2.Location = new System.Drawing.Point(2, 495);
+            this.splitContainerControl2.Panel2.Name = "";
+            this.splitContainerControl2.Panel2.Size = new System.Drawing.Size(1231, 148);
+            this.splitContainerControl2.Panel2.TabIndex = 1;
+            this.splitContainerControl2.Panel2.Text = "Panel2";
+            this.splitContainerControl2.Size = new System.Drawing.Size(1235, 645);
+            this.splitContainerControl2.SplitterPosition = 152;
+            this.splitContainerControl2.TabIndex = 6;
+            this.splitContainerControl2.Text = "splitContainerControl2";
+            // 
+            // userControlSol2
+            // 
+            this.userControlSol2.CabeceraText = "345678  Carlos : Informática";
+            this.userControlSol2.ColorHoverName = "Gainsboro";
+            this.userControlSol2.ColorNameFondo = "WhiteSmoke";
+            this.userControlSol2.ColorNormalAdministrador = "DarkGray";
+            this.userControlSol2.DescripcionText = "Backup : Se apaga cuando se va la corriente";
+            this.userControlSol2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.userControlSol2.Entorno = "Internet ";
+            this.userControlSol2.FechaHora = "Reportado: 9:25 5/12/2015   Finalizado: 9:25 5/12/2015";
+            this.userControlSol2.ImagenAdministrador = ((System.Drawing.Image)(resources.GetObject("userControlSol2.ImagenAdministrador")));
+            this.userControlSol2.Location = new System.Drawing.Point(0, 63);
+            this.userControlSol2.Name = "userControlSol2";
+            this.userControlSol2.NombreAdminColor = "Orange";
+            this.userControlSol2.NombreAdministrador = "";
+            this.userControlSol2.Reporte = null;
+            this.userControlSol2.Size = new System.Drawing.Size(1231, 63);
+            this.userControlSol2.TabIndex = 1;
+            // 
+            // userControlSol1
+            // 
+            this.userControlSol1.CabeceraText = "345678  Carlos : Informática";
+            this.userControlSol1.ColorHoverName = "Gainsboro";
+            this.userControlSol1.ColorNameFondo = "WhiteSmoke";
+            this.userControlSol1.ColorNormalAdministrador = "DarkGray";
+            this.userControlSol1.DescripcionText = "Backup : Se apaga cuando se va la corriente";
+            this.userControlSol1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.userControlSol1.Entorno = "Internet ";
+            this.userControlSol1.FechaHora = "Reportado: 9:25 5/12/2015   Finalizado: 9:25 5/12/2015";
+            this.userControlSol1.ImagenAdministrador = ((System.Drawing.Image)(resources.GetObject("userControlSol1.ImagenAdministrador")));
+            this.userControlSol1.Location = new System.Drawing.Point(0, 0);
+            this.userControlSol1.Name = "userControlSol1";
+            this.userControlSol1.NombreAdminColor = "Orange";
+            this.userControlSol1.NombreAdministrador = "";
+            this.userControlSol1.Reporte = null;
+            this.userControlSol1.Size = new System.Drawing.Size(1231, 63);
+            this.userControlSol1.TabIndex = 0;
+            // 
+            // panelControl9
+            // 
+            this.panelControl9.Appearance.BackColor = System.Drawing.Color.White;
+            this.panelControl9.Appearance.Options.UseBackColor = true;
+            this.panelControl9.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.panelControl9.Controls.Add(this.txt_solucionSol);
+            this.panelControl9.Controls.Add(this.labelControl12);
+            this.panelControl9.Controls.Add(this.txt_problemaSol);
+            this.panelControl9.Controls.Add(this.labelControl13);
+            this.panelControl9.Controls.Add(this.txt_observacionSol);
+            this.panelControl9.Controls.Add(this.labelControl14);
+            this.panelControl9.Controls.Add(this.labelControl15);
+            this.panelControl9.Controls.Add(this.txt_administradorSol);
+            this.panelControl9.Controls.Add(this.labelControl16);
+            this.panelControl9.Controls.Add(this.txt_usuarioSol);
+            this.panelControl9.Controls.Add(this.labelControl17);
+            this.panelControl9.Controls.Add(this.txt_departamentoSol);
+            this.panelControl9.Controls.Add(this.labelControl18);
+            this.panelControl9.Controls.Add(this.txt_pcOrigenSol);
+            this.panelControl9.Controls.Add(this.labelControl19);
+            this.panelControl9.Controls.Add(this.txt_equipoSol);
+            this.panelControl9.Controls.Add(this.labelControl20);
+            this.panelControl9.Controls.Add(this.txt_numeroSol);
+            this.panelControl9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl9.Location = new System.Drawing.Point(0, 0);
+            this.panelControl9.Name = "panelControl9";
+            this.panelControl9.Size = new System.Drawing.Size(1231, 148);
+            this.panelControl9.TabIndex = 22;
+            // 
+            // txt_solucionSol
+            // 
+            this.txt_solucionSol.BackColor = System.Drawing.Color.White;
+            this.txt_solucionSol.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_solucionSol.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_solucionSol.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_solucionSol.Location = new System.Drawing.Point(525, 80);
+            this.txt_solucionSol.Multiline = true;
+            this.txt_solucionSol.Name = "txt_solucionSol";
+            this.txt_solucionSol.ReadOnly = true;
+            this.txt_solucionSol.Size = new System.Drawing.Size(347, 50);
+            this.txt_solucionSol.TabIndex = 21;
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl12.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl12.Appearance.Options.UseFont = true;
+            this.labelControl12.Appearance.Options.UseForeColor = true;
+            this.labelControl12.Location = new System.Drawing.Point(9, 8);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(54, 16);
+            this.labelControl12.TabIndex = 0;
+            this.labelControl12.Text = "Número: ";
+            // 
+            // txt_problemaSol
+            // 
+            this.txt_problemaSol.BackColor = System.Drawing.Color.White;
+            this.txt_problemaSol.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_problemaSol.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_problemaSol.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_problemaSol.Location = new System.Drawing.Point(73, 82);
+            this.txt_problemaSol.Multiline = true;
+            this.txt_problemaSol.Name = "txt_problemaSol";
+            this.txt_problemaSol.ReadOnly = true;
+            this.txt_problemaSol.Size = new System.Drawing.Size(336, 50);
+            this.txt_problemaSol.TabIndex = 20;
+            // 
+            // labelControl13
+            // 
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl13.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl13.Appearance.Options.UseFont = true;
+            this.labelControl13.Appearance.Options.UseForeColor = true;
+            this.labelControl13.Location = new System.Drawing.Point(9, 30);
+            this.labelControl13.Name = "labelControl13";
+            this.labelControl13.Size = new System.Drawing.Size(58, 16);
+            this.labelControl13.TabIndex = 1;
+            this.labelControl13.Text = "Elemento:";
+            // 
+            // txt_observacionSol
+            // 
+            this.txt_observacionSol.BackColor = System.Drawing.Color.White;
+            this.txt_observacionSol.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_observacionSol.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_observacionSol.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_observacionSol.Location = new System.Drawing.Point(526, 6);
+            this.txt_observacionSol.Multiline = true;
+            this.txt_observacionSol.Name = "txt_observacionSol";
+            this.txt_observacionSol.ReadOnly = true;
+            this.txt_observacionSol.Size = new System.Drawing.Size(345, 54);
+            this.txt_observacionSol.TabIndex = 19;
+            // 
+            // labelControl14
+            // 
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl14.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl14.Appearance.Options.UseFont = true;
+            this.labelControl14.Appearance.Options.UseForeColor = true;
+            this.labelControl14.Location = new System.Drawing.Point(9, 82);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(59, 16);
+            this.labelControl14.TabIndex = 2;
+            this.labelControl14.Text = "Problema:";
+            // 
+            // labelControl15
+            // 
+            this.labelControl15.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl15.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl15.Appearance.Options.UseFont = true;
+            this.labelControl15.Appearance.Options.UseForeColor = true;
+            this.labelControl15.Location = new System.Drawing.Point(189, 30);
+            this.labelControl15.Name = "labelControl15";
+            this.labelControl15.Size = new System.Drawing.Size(49, 16);
+            this.labelControl15.TabIndex = 3;
+            this.labelControl15.Text = "Técnico:";
+            // 
+            // txt_administradorSol
+            // 
+            this.txt_administradorSol.Location = new System.Drawing.Point(241, 28);
+            this.txt_administradorSol.Name = "txt_administradorSol";
+            // 
+            // 
+            // 
+            this.txt_administradorSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txt_administradorSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_administradorSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_administradorSol.Properties.Appearance.Options.UseBackColor = true;
+            this.txt_administradorSol.Properties.Appearance.Options.UseFont = true;
+            this.txt_administradorSol.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_administradorSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.txt_administradorSol.Properties.ReadOnly = true;
+            this.txt_administradorSol.Size = new System.Drawing.Size(206, 20);
+            this.txt_administradorSol.TabIndex = 15;
+            // 
+            // labelControl16
+            // 
+            this.labelControl16.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl16.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl16.Appearance.Options.UseFont = true;
+            this.labelControl16.Appearance.Options.UseForeColor = true;
+            this.labelControl16.Location = new System.Drawing.Point(190, 7);
+            this.labelControl16.Name = "labelControl16";
+            this.labelControl16.Size = new System.Drawing.Size(48, 16);
+            this.labelControl16.TabIndex = 4;
+            this.labelControl16.Text = "Usuario:";
+            // 
+            // txt_usuarioSol
+            // 
+            this.txt_usuarioSol.Location = new System.Drawing.Point(241, 5);
+            this.txt_usuarioSol.Name = "txt_usuarioSol";
+            // 
+            // 
+            // 
+            this.txt_usuarioSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txt_usuarioSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_usuarioSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_usuarioSol.Properties.Appearance.Options.UseBackColor = true;
+            this.txt_usuarioSol.Properties.Appearance.Options.UseFont = true;
+            this.txt_usuarioSol.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_usuarioSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.txt_usuarioSol.Properties.ReadOnly = true;
+            this.txt_usuarioSol.Size = new System.Drawing.Size(196, 20);
+            this.txt_usuarioSol.TabIndex = 14;
+            // 
+            // labelControl17
+            // 
+            this.labelControl17.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl17.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl17.Appearance.Options.UseFont = true;
+            this.labelControl17.Appearance.Options.UseForeColor = true;
+            this.labelControl17.Location = new System.Drawing.Point(189, 53);
+            this.labelControl17.Name = "labelControl17";
+            this.labelControl17.Size = new System.Drawing.Size(90, 16);
+            this.labelControl17.TabIndex = 5;
+            this.labelControl17.Text = "Departamento: ";
+            // 
+            // txt_departamentoSol
+            // 
+            this.txt_departamentoSol.Location = new System.Drawing.Point(282, 52);
+            this.txt_departamentoSol.Name = "txt_departamentoSol";
+            // 
+            // 
+            // 
+            this.txt_departamentoSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txt_departamentoSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_departamentoSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_departamentoSol.Properties.Appearance.Options.UseBackColor = true;
+            this.txt_departamentoSol.Properties.Appearance.Options.UseFont = true;
+            this.txt_departamentoSol.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_departamentoSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.txt_departamentoSol.Properties.ReadOnly = true;
+            this.txt_departamentoSol.Size = new System.Drawing.Size(236, 20);
+            this.txt_departamentoSol.TabIndex = 12;
+            // 
+            // labelControl18
+            // 
+            this.labelControl18.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl18.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl18.Appearance.Options.UseFont = true;
+            this.labelControl18.Appearance.Options.UseForeColor = true;
+            this.labelControl18.Location = new System.Drawing.Point(467, 80);
+            this.labelControl18.Name = "labelControl18";
+            this.labelControl18.Size = new System.Drawing.Size(57, 16);
+            this.labelControl18.TabIndex = 6;
+            this.labelControl18.Text = "Solución: ";
+            // 
+            // txt_pcOrigenSol
+            // 
+            this.txt_pcOrigenSol.Location = new System.Drawing.Point(72, 53);
+            this.txt_pcOrigenSol.Name = "txt_pcOrigenSol";
+            // 
+            // 
+            // 
+            this.txt_pcOrigenSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txt_pcOrigenSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pcOrigenSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_pcOrigenSol.Properties.Appearance.Options.UseBackColor = true;
+            this.txt_pcOrigenSol.Properties.Appearance.Options.UseFont = true;
+            this.txt_pcOrigenSol.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_pcOrigenSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.txt_pcOrigenSol.Properties.ReadOnly = true;
+            this.txt_pcOrigenSol.Size = new System.Drawing.Size(112, 20);
+            this.txt_pcOrigenSol.TabIndex = 11;
+            // 
+            // labelControl19
+            // 
+            this.labelControl19.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl19.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl19.Appearance.Options.UseFont = true;
+            this.labelControl19.Appearance.Options.UseForeColor = true;
+            this.labelControl19.Location = new System.Drawing.Point(8, 54);
+            this.labelControl19.Name = "labelControl19";
+            this.labelControl19.Size = new System.Drawing.Size(64, 16);
+            this.labelControl19.TabIndex = 7;
+            this.labelControl19.Text = "PC origen: ";
+            // 
+            // txt_equipoSol
+            // 
+            this.txt_equipoSol.Location = new System.Drawing.Point(72, 29);
+            this.txt_equipoSol.Name = "txt_equipoSol";
+            // 
+            // 
+            // 
+            this.txt_equipoSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txt_equipoSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_equipoSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_equipoSol.Properties.Appearance.Options.UseBackColor = true;
+            this.txt_equipoSol.Properties.Appearance.Options.UseFont = true;
+            this.txt_equipoSol.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_equipoSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.txt_equipoSol.Properties.ReadOnly = true;
+            this.txt_equipoSol.Size = new System.Drawing.Size(111, 20);
+            this.txt_equipoSol.TabIndex = 10;
+            // 
+            // labelControl20
+            // 
+            this.labelControl20.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl20.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.labelControl20.Appearance.Options.UseFont = true;
+            this.labelControl20.Appearance.Options.UseForeColor = true;
+            this.labelControl20.Location = new System.Drawing.Point(445, 6);
+            this.labelControl20.Name = "labelControl20";
+            this.labelControl20.Size = new System.Drawing.Size(79, 16);
+            this.labelControl20.TabIndex = 8;
+            this.labelControl20.Text = "Observación: ";
+            // 
+            // txt_numeroSol
+            // 
+            this.txt_numeroSol.Location = new System.Drawing.Point(72, 6);
+            this.txt_numeroSol.Name = "txt_numeroSol";
+            // 
+            // 
+            // 
+            this.txt_numeroSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txt_numeroSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_numeroSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_numeroSol.Properties.Appearance.Options.UseBackColor = true;
+            this.txt_numeroSol.Properties.Appearance.Options.UseFont = true;
+            this.txt_numeroSol.Properties.Appearance.Options.UseForeColor = true;
+            this.txt_numeroSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.txt_numeroSol.Properties.ReadOnly = true;
+            this.txt_numeroSol.Size = new System.Drawing.Size(109, 20);
+            this.txt_numeroSol.TabIndex = 9;
+            // 
+            // panelControl4
+            // 
+            this.panelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl4.Location = new System.Drawing.Point(2, 2);
+            this.panelControl4.Name = "panelControl4";
+            this.panelControl4.Size = new System.Drawing.Size(1235, 645);
+            this.panelControl4.TabIndex = 0;
+            // 
+            // worker_mostrarSolucionados
+            // 
+            this.worker_mostrarSolucionados.DoWork += new System.ComponentModel.DoWorkEventHandler(this.worker_mostrarSolucionados_DoWork);
+            this.worker_mostrarSolucionados.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.worker_mostrarSolucionados_RunWorkerCompleted);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.Filter = "*.png,|*.jpg";
+            this.openFileDialog1.Title = "Selector de imagen";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(20, 30);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // problemaPosibleTableAdapter
+            // 
+            this.problemaPosibleTableAdapter.ClearBeforeFill = true;
+            // 
+            // equipoTableAdapter
+            // 
+            this.equipoTableAdapter.ClearBeforeFill = true;
+            // 
+            // panelControl5
+            // 
+            this.panelControl5.Appearance.BackColor = System.Drawing.Color.LightGray;
+            this.panelControl5.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.panelControl5.Appearance.BorderColor = System.Drawing.Color.Silver;
+            this.panelControl5.Appearance.Options.UseBackColor = true;
+            this.panelControl5.Appearance.Options.UseBorderColor = true;
+            this.panelControl5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.panelControl5.Controls.Add(this.labelControl21);
+            this.panelControl5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl5.Location = new System.Drawing.Point(0, 0);
+            this.panelControl5.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.panelControl5.LookAndFeel.UseWindowsXPTheme = true;
+            this.panelControl5.Name = "panelControl5";
+            this.panelControl5.Size = new System.Drawing.Size(1239, 29);
+            this.panelControl5.TabIndex = 3;
+            // 
+            // labelControl21
+            // 
+            this.labelControl21.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl21.Appearance.Options.UseFont = true;
+            this.labelControl21.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelControl21.Location = new System.Drawing.Point(1160, 3);
+            this.labelControl21.Margin = new System.Windows.Forms.Padding(0);
+            this.labelControl21.Name = "labelControl21";
+            this.labelControl21.Padding = new System.Windows.Forms.Padding(0, 5, 5, 0);
+            this.labelControl21.Size = new System.Drawing.Size(76, 19);
+            this.labelControl21.TabIndex = 0;
+            this.labelControl21.Text = "Administrar";
+            // 
             // pnl_administrar
             // 
             this.pnl_administrar.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -1275,6 +1800,7 @@
             // entornos
             // 
             this.entornos.Controls.Add(this.pnl_entorno);
+            this.entornos.Enabled = true;
             this.entornos.Name = "entornos";
             this.entornos.Size = new System.Drawing.Size(1237, 590);
             this.entornos.Text = "Gestionar entornos";
@@ -1311,6 +1837,9 @@
             this.hyperLinkEdit1.Location = new System.Drawing.Point(0, 289);
             this.hyperLinkEdit1.Margin = new System.Windows.Forms.Padding(5);
             this.hyperLinkEdit1.Name = "hyperLinkEdit1";
+            // 
+            // 
+            // 
             this.hyperLinkEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hyperLinkEdit1.Properties.Appearance.Options.UseFont = true;
             this.hyperLinkEdit1.Properties.Image = ((System.Drawing.Image)(resources.GetObject("hyperLinkEdit1.Properties.Image")));
@@ -1548,6 +2077,9 @@
             // 
             this.check_entornoEditarEnUso.Location = new System.Drawing.Point(4, 110);
             this.check_entornoEditarEnUso.Name = "check_entornoEditarEnUso";
+            // 
+            // 
+            // 
             this.check_entornoEditarEnUso.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_entornoEditarEnUso.Properties.Appearance.Options.UseFont = true;
             this.check_entornoEditarEnUso.Properties.Caption = "Inactivo";
@@ -1584,6 +2116,9 @@
             // 
             this.txt_nombreEntornoEditar.Location = new System.Drawing.Point(68, 55);
             this.txt_nombreEntornoEditar.Name = "txt_nombreEntornoEditar";
+            // 
+            // 
+            // 
             this.txt_nombreEntornoEditar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombreEntornoEditar.Properties.Appearance.Options.UseFont = true;
             this.txt_nombreEntornoEditar.Size = new System.Drawing.Size(168, 20);
@@ -1639,6 +2174,9 @@
             // 
             this.check_entornoAdicionarEnUso.Location = new System.Drawing.Point(4, 117);
             this.check_entornoAdicionarEnUso.Name = "check_entornoAdicionarEnUso";
+            // 
+            // 
+            // 
             this.check_entornoAdicionarEnUso.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_entornoAdicionarEnUso.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.check_entornoAdicionarEnUso.Properties.Appearance.Options.UseFont = true;
@@ -1677,6 +2215,9 @@
             // 
             this.txt_nombreEntornoAdicionar.Location = new System.Drawing.Point(68, 58);
             this.txt_nombreEntornoAdicionar.Name = "txt_nombreEntornoAdicionar";
+            // 
+            // 
+            // 
             this.txt_nombreEntornoAdicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombreEntornoAdicionar.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_nombreEntornoAdicionar.Properties.Appearance.Options.UseFont = true;
@@ -1687,6 +2228,7 @@
             // equipos
             // 
             this.equipos.Controls.Add(this.pnl_equipos);
+            this.equipos.Enabled = true;
             this.equipos.Name = "equipos";
             this.equipos.Size = new System.Drawing.Size(1237, 590);
             this.equipos.Text = "Gestionar equipos";
@@ -1854,6 +2396,9 @@
             // 
             this.txt_problemaAdd.Location = new System.Drawing.Point(4, 26);
             this.txt_problemaAdd.Name = "txt_problemaAdd";
+            // 
+            // 
+            // 
             this.txt_problemaAdd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_problemaAdd.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_problemaAdd.Properties.Appearance.Options.UseFont = true;
@@ -1915,6 +2460,9 @@
             // 
             this.check_equipoEditar.Location = new System.Drawing.Point(262, 54);
             this.check_equipoEditar.Name = "check_equipoEditar";
+            // 
+            // 
+            // 
             this.check_equipoEditar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_equipoEditar.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.check_equipoEditar.Properties.Appearance.Options.UseFont = true;
@@ -1953,6 +2501,9 @@
             // 
             this.txt_nombreEquipoEditar.Location = new System.Drawing.Point(68, 55);
             this.txt_nombreEquipoEditar.Name = "txt_nombreEquipoEditar";
+            // 
+            // 
+            // 
             this.txt_nombreEquipoEditar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombreEquipoEditar.Properties.Appearance.Options.UseFont = true;
             this.txt_nombreEquipoEditar.Size = new System.Drawing.Size(168, 20);
@@ -1986,6 +2537,9 @@
             this.hyperLinkEdit3.Location = new System.Drawing.Point(0, 402);
             this.hyperLinkEdit3.Margin = new System.Windows.Forms.Padding(5);
             this.hyperLinkEdit3.Name = "hyperLinkEdit3";
+            // 
+            // 
+            // 
             this.hyperLinkEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hyperLinkEdit3.Properties.Appearance.Options.UseFont = true;
             this.hyperLinkEdit3.Properties.Image = ((System.Drawing.Image)(resources.GetObject("hyperLinkEdit3.Properties.Image")));
@@ -2329,6 +2883,9 @@
             // 
             this.txt_problemaEquipoAdicionar.Location = new System.Drawing.Point(4, 26);
             this.txt_problemaEquipoAdicionar.Name = "txt_problemaEquipoAdicionar";
+            // 
+            // 
+            // 
             this.txt_problemaEquipoAdicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_problemaEquipoAdicionar.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_problemaEquipoAdicionar.Properties.Appearance.Options.UseFont = true;
@@ -2390,6 +2947,9 @@
             // 
             this.check_equipoadicionar.Location = new System.Drawing.Point(265, 58);
             this.check_equipoadicionar.Name = "check_equipoadicionar";
+            // 
+            // 
+            // 
             this.check_equipoadicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_equipoadicionar.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.check_equipoadicionar.Properties.Appearance.Options.UseFont = true;
@@ -2428,6 +2988,9 @@
             // 
             this.txt_nombreEquipoAdicionar.Location = new System.Drawing.Point(68, 58);
             this.txt_nombreEquipoAdicionar.Name = "txt_nombreEquipoAdicionar";
+            // 
+            // 
+            // 
             this.txt_nombreEquipoAdicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombreEquipoAdicionar.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_nombreEquipoAdicionar.Properties.Appearance.Options.UseFont = true;
@@ -2438,6 +3001,7 @@
             // administradores
             // 
             this.administradores.Controls.Add(this.pnl_administrador);
+            this.administradores.Enabled = true;
             this.administradores.Name = "administradores";
             this.administradores.Size = new System.Drawing.Size(1237, 590);
             this.administradores.Text = "Gestionar técnicos";
@@ -2473,6 +3037,9 @@
             this.hyperLinkEdit2.EditValue = "Adicionar un nuevo técnico";
             this.hyperLinkEdit2.Location = new System.Drawing.Point(0, 324);
             this.hyperLinkEdit2.Name = "hyperLinkEdit2";
+            // 
+            // 
+            // 
             this.hyperLinkEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hyperLinkEdit2.Properties.Appearance.Options.UseFont = true;
             this.hyperLinkEdit2.Properties.Image = ((System.Drawing.Image)(resources.GetObject("hyperLinkEdit2.Properties.Image")));
@@ -2684,6 +3251,9 @@
             // 
             this.check_administradorEditarTecnico.Location = new System.Drawing.Point(278, 82);
             this.check_administradorEditarTecnico.Name = "check_administradorEditarTecnico";
+            // 
+            // 
+            // 
             this.check_administradorEditarTecnico.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_administradorEditarTecnico.Properties.Appearance.Options.UseFont = true;
             this.check_administradorEditarTecnico.Properties.Caption = "Técnico";
@@ -2753,6 +3323,9 @@
             // 
             this.check_administradorEditarEnUso.Location = new System.Drawing.Point(278, 55);
             this.check_administradorEditarEnUso.Name = "check_administradorEditarEnUso";
+            // 
+            // 
+            // 
             this.check_administradorEditarEnUso.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_administradorEditarEnUso.Properties.Appearance.Options.UseFont = true;
             this.check_administradorEditarEnUso.Properties.Caption = "Inactivo";
@@ -2789,6 +3362,9 @@
             // 
             this.txt_nombreAdministradorEditar.Location = new System.Drawing.Point(87, 55);
             this.txt_nombreAdministradorEditar.Name = "txt_nombreAdministradorEditar";
+            // 
+            // 
+            // 
             this.txt_nombreAdministradorEditar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombreAdministradorEditar.Properties.Appearance.Options.UseFont = true;
             this.txt_nombreAdministradorEditar.Size = new System.Drawing.Size(168, 20);
@@ -2816,6 +3392,9 @@
             // 
             this.check_administradorEditarTecnicoAdicionar.Location = new System.Drawing.Point(15, 178);
             this.check_administradorEditarTecnicoAdicionar.Name = "check_administradorEditarTecnicoAdicionar";
+            // 
+            // 
+            // 
             this.check_administradorEditarTecnicoAdicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_administradorEditarTecnicoAdicionar.Properties.Appearance.Options.UseFont = true;
             this.check_administradorEditarTecnicoAdicionar.Properties.Caption = "Técnico";
@@ -2876,6 +3455,9 @@
             // 
             this.text_dirFotoAdminAdicionar.Location = new System.Drawing.Point(106, 90);
             this.text_dirFotoAdminAdicionar.Name = "text_dirFotoAdminAdicionar";
+            // 
+            // 
+            // 
             this.text_dirFotoAdminAdicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.text_dirFotoAdminAdicionar.Properties.Appearance.Options.UseFont = true;
             this.text_dirFotoAdminAdicionar.Size = new System.Drawing.Size(141, 20);
@@ -2885,6 +3467,9 @@
             // 
             this.check_administradorEditarEnUsoAdicionar.Location = new System.Drawing.Point(15, 146);
             this.check_administradorEditarEnUsoAdicionar.Name = "check_administradorEditarEnUsoAdicionar";
+            // 
+            // 
+            // 
             this.check_administradorEditarEnUsoAdicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check_administradorEditarEnUsoAdicionar.Properties.Appearance.Options.UseFont = true;
             this.check_administradorEditarEnUsoAdicionar.Properties.Caption = "Inactivo";
@@ -2906,6 +3491,9 @@
             // 
             this.txt_nombreAdministradorAdicionar.Location = new System.Drawing.Point(79, 51);
             this.txt_nombreAdministradorAdicionar.Name = "txt_nombreAdministradorAdicionar";
+            // 
+            // 
+            // 
             this.txt_nombreAdministradorAdicionar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombreAdministradorAdicionar.Properties.Appearance.Options.UseFont = true;
             this.txt_nombreAdministradorAdicionar.Size = new System.Drawing.Size(168, 20);
@@ -2939,6 +3527,7 @@
             // 
             this.reportes.Controls.Add(this.panel45);
             this.reportes.Controls.Add(this.panel44);
+            this.reportes.Enabled = true;
             this.reportes.Name = "reportes";
             this.reportes.Size = new System.Drawing.Size(1237, 590);
             this.reportes.Text = "Añadir reportes";
@@ -2946,22 +3535,71 @@
             // panel45
             // 
             this.panel45.BackColor = System.Drawing.Color.White;
+            this.panel45.Controls.Add(this.textEditNombrePC);
+            this.panel45.Controls.Add(this.textObservacion);
+            this.panel45.Controls.Add(this.comboEquipo);
+            this.panel45.Controls.Add(this.comboProblema);
+            this.panel45.Controls.Add(this.comboTrabajadores);
             this.panel45.Controls.Add(this.buttonAñadirReporte);
             this.panel45.Controls.Add(this.labelObservacion);
             this.panel45.Controls.Add(this.labelNombrePC);
             this.panel45.Controls.Add(this.labelProblema);
-            this.panel45.Controls.Add(this.comboProblema);
             this.panel45.Controls.Add(this.labelEquipo);
-            this.panel45.Controls.Add(this.comboEquipo);
             this.panel45.Controls.Add(this.panel47);
             this.panel45.Controls.Add(this.labelTrabajadores);
-            this.panel45.Controls.Add(this.comboTrabajadores);
-            this.panel45.Controls.Add(this.textEditNombrePC);
-            this.panel45.Controls.Add(this.textEditObservacion);
             this.panel45.Location = new System.Drawing.Point(16, 51);
             this.panel45.Name = "panel45";
             this.panel45.Size = new System.Drawing.Size(396, 318);
             this.panel45.TabIndex = 31;
+            // 
+            // textEditNombrePC
+            // 
+            this.textEditNombrePC.Location = new System.Drawing.Point(101, 134);
+            this.textEditNombrePC.Name = "textEditNombrePC";
+            this.textEditNombrePC.Size = new System.Drawing.Size(189, 21);
+            this.textEditNombrePC.TabIndex = 44;
+            // 
+            // textObservacion
+            // 
+            this.textObservacion.Location = new System.Drawing.Point(101, 159);
+            this.textObservacion.Multiline = true;
+            this.textObservacion.Name = "textObservacion";
+            this.textObservacion.Size = new System.Drawing.Size(189, 82);
+            this.textObservacion.TabIndex = 43;
+            // 
+            // comboEquipo
+            // 
+            this.comboEquipo.DataSource = this.equipoBindingSource;
+            this.comboEquipo.DisplayMember = "nombre";
+            this.comboEquipo.FormattingEnabled = true;
+            this.comboEquipo.Location = new System.Drawing.Point(101, 80);
+            this.comboEquipo.Name = "comboEquipo";
+            this.comboEquipo.Size = new System.Drawing.Size(189, 21);
+            this.comboEquipo.TabIndex = 42;
+            this.comboEquipo.ValueMember = "idEquipo";
+            this.comboEquipo.SelectedIndexChanged += new System.EventHandler(this.comboEquipo_SelectedIndexChanged);
+            // 
+            // comboProblema
+            // 
+            this.comboProblema.DataSource = this.problemaPosibleBindingSource;
+            this.comboProblema.DisplayMember = "problemaInfo";
+            this.comboProblema.FormattingEnabled = true;
+            this.comboProblema.Location = new System.Drawing.Point(101, 107);
+            this.comboProblema.Name = "comboProblema";
+            this.comboProblema.Size = new System.Drawing.Size(189, 21);
+            this.comboProblema.TabIndex = 41;
+            this.comboProblema.ValueMember = "idProblemaPosible";
+            // 
+            // comboTrabajadores
+            // 
+            this.comboTrabajadores.DataSource = this.personalRHBindingSource;
+            this.comboTrabajadores.DisplayMember = "Nombre";
+            this.comboTrabajadores.FormattingEnabled = true;
+            this.comboTrabajadores.Location = new System.Drawing.Point(101, 54);
+            this.comboTrabajadores.Name = "comboTrabajadores";
+            this.comboTrabajadores.Size = new System.Drawing.Size(189, 21);
+            this.comboTrabajadores.TabIndex = 40;
+            this.comboTrabajadores.ValueMember = "Exp";
             // 
             // buttonAñadirReporte
             // 
@@ -2970,7 +3608,7 @@
             this.buttonAñadirReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAñadirReporte.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAñadirReporte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonAñadirReporte.Location = new System.Drawing.Point(96, 248);
+            this.buttonAñadirReporte.Location = new System.Drawing.Point(101, 247);
             this.buttonAñadirReporte.Name = "buttonAñadirReporte";
             this.buttonAñadirReporte.Size = new System.Drawing.Size(70, 40);
             this.buttonAñadirReporte.TabIndex = 39;
@@ -3011,22 +3649,6 @@
             this.labelProblema.TabIndex = 34;
             this.labelProblema.Text = "Problema:";
             // 
-            // comboProblema
-            // 
-            this.comboProblema.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.reporteDBEntitiesBindingSource, "ProblemaPosible idProblemaPosible", true));
-            this.comboProblema.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reporteDBEntitiesBindingSource, "ProblemaPosible problemaInfo", true));
-            this.comboProblema.Location = new System.Drawing.Point(101, 107);
-            this.comboProblema.Name = "comboProblema";
-            this.comboProblema.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboProblema.Properties.Appearance.Options.UseFont = true;
-            this.comboProblema.Properties.Sorted = true;
-            this.comboProblema.Size = new System.Drawing.Size(189, 20);
-            this.comboProblema.TabIndex = 33;
-            // 
-            // reporteDBEntitiesBindingSource
-            // 
-            this.reporteDBEntitiesBindingSource.DataSource = typeof(ReportesApp.ReporteDBEntities);
-            // 
             // labelEquipo
             // 
             this.labelEquipo.AutoSize = true;
@@ -3037,18 +3659,6 @@
             this.labelEquipo.Size = new System.Drawing.Size(63, 14);
             this.labelEquipo.TabIndex = 32;
             this.labelEquipo.Text = "Elemento:";
-            // 
-            // comboEquipo
-            // 
-            this.comboEquipo.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.reporteDBEntitiesBindingSource, "Equipo nombre", true));
-            this.comboEquipo.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.reporteDBEntitiesBindingSource, "Equipo idEquipo", true));
-            this.comboEquipo.Location = new System.Drawing.Point(101, 81);
-            this.comboEquipo.Name = "comboEquipo";
-            this.comboEquipo.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboEquipo.Properties.Appearance.Options.UseFont = true;
-            this.comboEquipo.Properties.Sorted = true;
-            this.comboEquipo.Size = new System.Drawing.Size(189, 20);
-            this.comboEquipo.TabIndex = 31;
             // 
             // panel47
             // 
@@ -3085,43 +3695,6 @@
             this.labelTrabajadores.TabIndex = 5;
             this.labelTrabajadores.Text = "Trabajador: ";
             // 
-            // comboTrabajadores
-            // 
-            this.comboTrabajadores.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalRHBindingSource, "Nombre Apellido1 Apellido2", true));
-            this.comboTrabajadores.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.personalRHBindingSource, "Exp", true));
-            this.comboTrabajadores.Location = new System.Drawing.Point(101, 55);
-            this.comboTrabajadores.Name = "comboTrabajadores";
-            this.comboTrabajadores.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboTrabajadores.Properties.Appearance.Options.UseFont = true;
-            this.comboTrabajadores.Properties.Sorted = true;
-            this.comboTrabajadores.Size = new System.Drawing.Size(189, 20);
-            this.comboTrabajadores.TabIndex = 4;
-            // 
-            // personalRHBindingSource
-            // 
-            this.personalRHBindingSource.DataSource = typeof(ReportesApp.ServiceReference1.PersonalRH);
-            this.personalRHBindingSource.Sort = "Nombre";
-            // 
-            // textEditNombrePC
-            // 
-            this.textEditNombrePC.Location = new System.Drawing.Point(101, 133);
-            this.textEditNombrePC.Name = "textEditNombrePC";
-            this.textEditNombrePC.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEditNombrePC.Properties.Appearance.Options.UseFont = true;
-            this.textEditNombrePC.Properties.AutoHeight = false;
-            this.textEditNombrePC.Size = new System.Drawing.Size(189, 20);
-            this.textEditNombrePC.TabIndex = 35;
-            // 
-            // textEditObservacion
-            // 
-            this.textEditObservacion.Location = new System.Drawing.Point(101, 159);
-            this.textEditObservacion.Name = "textEditObservacion";
-            this.textEditObservacion.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEditObservacion.Properties.Appearance.Options.UseFont = true;
-            this.textEditObservacion.Properties.AutoHeight = false;
-            this.textEditObservacion.Size = new System.Drawing.Size(189, 83);
-            this.textEditObservacion.TabIndex = 37;
-            // 
             // panel44
             // 
             this.panel44.BackColor = System.Drawing.Color.Gray;
@@ -3130,403 +3703,6 @@
             this.panel44.Name = "panel44";
             this.panel44.Size = new System.Drawing.Size(1237, 41);
             this.panel44.TabIndex = 30;
-            // 
-            // panelControl5
-            // 
-            this.panelControl5.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.panelControl5.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.panelControl5.Appearance.BorderColor = System.Drawing.Color.Silver;
-            this.panelControl5.Appearance.Options.UseBackColor = true;
-            this.panelControl5.Appearance.Options.UseBorderColor = true;
-            this.panelControl5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.panelControl5.Controls.Add(this.labelControl21);
-            this.panelControl5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl5.Location = new System.Drawing.Point(0, 0);
-            this.panelControl5.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.panelControl5.LookAndFeel.UseWindowsXPTheme = true;
-            this.panelControl5.Name = "panelControl5";
-            this.panelControl5.Size = new System.Drawing.Size(1239, 29);
-            this.panelControl5.TabIndex = 3;
-            // 
-            // labelControl21
-            // 
-            this.labelControl21.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl21.Appearance.Options.UseFont = true;
-            this.labelControl21.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelControl21.Location = new System.Drawing.Point(1160, 3);
-            this.labelControl21.Margin = new System.Windows.Forms.Padding(0);
-            this.labelControl21.Name = "labelControl21";
-            this.labelControl21.Padding = new System.Windows.Forms.Padding(0, 5, 5, 0);
-            this.labelControl21.Size = new System.Drawing.Size(76, 19);
-            this.labelControl21.TabIndex = 0;
-            this.labelControl21.Text = "Administrar";
-            // 
-            // pnl_solucionados
-            // 
-            this.pnl_solucionados.Controls.Add(this.splitContainerControl2);
-            this.pnl_solucionados.Controls.Add(this.panelControl4);
-            this.pnl_solucionados.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_solucionados.Location = new System.Drawing.Point(131, 24);
-            this.pnl_solucionados.Name = "pnl_solucionados";
-            this.pnl_solucionados.Size = new System.Drawing.Size(1239, 649);
-            this.pnl_solucionados.TabIndex = 5;
-            this.pnl_solucionados.Visible = false;
-            // 
-            // splitContainerControl2
-            // 
-            this.splitContainerControl2.Appearance.BackColor = System.Drawing.Color.LightGray;
-            this.splitContainerControl2.Appearance.Options.UseBackColor = true;
-            this.splitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerControl2.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.Panel2;
-            this.splitContainerControl2.Horizontal = false;
-            this.splitContainerControl2.Location = new System.Drawing.Point(2, 2);
-            this.splitContainerControl2.LookAndFeel.SkinName = "Metropolis";
-            this.splitContainerControl2.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.splitContainerControl2.Margin = new System.Windows.Forms.Padding(2);
-            this.splitContainerControl2.Name = "splitContainerControl2";
-            this.splitContainerControl2.Panel1.AutoScroll = true;
-            this.splitContainerControl2.Panel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.splitContainerControl2.Panel1.Controls.Add(this.userControlSol2);
-            this.splitContainerControl2.Panel1.Controls.Add(this.userControlSol1);
-            this.splitContainerControl2.Panel1.Text = "Panel1";
-            this.splitContainerControl2.Panel2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.splitContainerControl2.Panel2.Controls.Add(this.panelControl9);
-            this.splitContainerControl2.Panel2.Text = "Panel2";
-            this.splitContainerControl2.Size = new System.Drawing.Size(1235, 645);
-            this.splitContainerControl2.SplitterPosition = 152;
-            this.splitContainerControl2.TabIndex = 6;
-            this.splitContainerControl2.Text = "splitContainerControl2";
-            // 
-            // userControlSol2
-            // 
-            this.userControlSol2.CabeceraText = "345678  Carlos : Informática";
-            this.userControlSol2.ColorHoverName = "Gainsboro";
-            this.userControlSol2.ColorNameFondo = "WhiteSmoke";
-            this.userControlSol2.ColorNormalAdministrador = "DarkGray";
-            this.userControlSol2.DescripcionText = "Backup : Se apaga cuando se va la corriente";
-            this.userControlSol2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.userControlSol2.Entorno = "Internet ";
-            this.userControlSol2.FechaHora = "Reportado: 9:25 5/12/2015   Finalizado: 9:25 5/12/2015";
-            this.userControlSol2.ImagenAdministrador = ((System.Drawing.Image)(resources.GetObject("userControlSol2.ImagenAdministrador")));
-            this.userControlSol2.Location = new System.Drawing.Point(0, 63);
-            this.userControlSol2.Name = "userControlSol2";
-            this.userControlSol2.NombreAdminColor = "Orange";
-            this.userControlSol2.NombreAdministrador = "";
-            this.userControlSol2.Reporte = null;
-            this.userControlSol2.Size = new System.Drawing.Size(1231, 63);
-            this.userControlSol2.TabIndex = 1;
-            // 
-            // userControlSol1
-            // 
-            this.userControlSol1.CabeceraText = "345678  Carlos : Informática";
-            this.userControlSol1.ColorHoverName = "Gainsboro";
-            this.userControlSol1.ColorNameFondo = "WhiteSmoke";
-            this.userControlSol1.ColorNormalAdministrador = "DarkGray";
-            this.userControlSol1.DescripcionText = "Backup : Se apaga cuando se va la corriente";
-            this.userControlSol1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.userControlSol1.Entorno = "Internet ";
-            this.userControlSol1.FechaHora = "Reportado: 9:25 5/12/2015   Finalizado: 9:25 5/12/2015";
-            this.userControlSol1.ImagenAdministrador = ((System.Drawing.Image)(resources.GetObject("userControlSol1.ImagenAdministrador")));
-            this.userControlSol1.Location = new System.Drawing.Point(0, 0);
-            this.userControlSol1.Name = "userControlSol1";
-            this.userControlSol1.NombreAdminColor = "Orange";
-            this.userControlSol1.NombreAdministrador = "";
-            this.userControlSol1.Reporte = null;
-            this.userControlSol1.Size = new System.Drawing.Size(1231, 63);
-            this.userControlSol1.TabIndex = 0;
-            // 
-            // panelControl9
-            // 
-            this.panelControl9.Appearance.BackColor = System.Drawing.Color.White;
-            this.panelControl9.Appearance.Options.UseBackColor = true;
-            this.panelControl9.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl9.Controls.Add(this.txt_solucionSol);
-            this.panelControl9.Controls.Add(this.labelControl12);
-            this.panelControl9.Controls.Add(this.txt_problemaSol);
-            this.panelControl9.Controls.Add(this.labelControl13);
-            this.panelControl9.Controls.Add(this.txt_observacionSol);
-            this.panelControl9.Controls.Add(this.labelControl14);
-            this.panelControl9.Controls.Add(this.labelControl15);
-            this.panelControl9.Controls.Add(this.txt_administradorSol);
-            this.panelControl9.Controls.Add(this.labelControl16);
-            this.panelControl9.Controls.Add(this.txt_usuarioSol);
-            this.panelControl9.Controls.Add(this.labelControl17);
-            this.panelControl9.Controls.Add(this.txt_departamentoSol);
-            this.panelControl9.Controls.Add(this.labelControl18);
-            this.panelControl9.Controls.Add(this.txt_pcOrigenSol);
-            this.panelControl9.Controls.Add(this.labelControl19);
-            this.panelControl9.Controls.Add(this.txt_equipoSol);
-            this.panelControl9.Controls.Add(this.labelControl20);
-            this.panelControl9.Controls.Add(this.txt_numeroSol);
-            this.panelControl9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl9.Location = new System.Drawing.Point(0, 0);
-            this.panelControl9.Name = "panelControl9";
-            this.panelControl9.Size = new System.Drawing.Size(1231, 148);
-            this.panelControl9.TabIndex = 22;
-            // 
-            // txt_solucionSol
-            // 
-            this.txt_solucionSol.BackColor = System.Drawing.Color.White;
-            this.txt_solucionSol.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_solucionSol.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_solucionSol.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_solucionSol.Location = new System.Drawing.Point(525, 80);
-            this.txt_solucionSol.Multiline = true;
-            this.txt_solucionSol.Name = "txt_solucionSol";
-            this.txt_solucionSol.ReadOnly = true;
-            this.txt_solucionSol.Size = new System.Drawing.Size(347, 50);
-            this.txt_solucionSol.TabIndex = 21;
-            // 
-            // labelControl12
-            // 
-            this.labelControl12.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl12.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl12.Appearance.Options.UseFont = true;
-            this.labelControl12.Appearance.Options.UseForeColor = true;
-            this.labelControl12.Location = new System.Drawing.Point(9, 8);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(54, 16);
-            this.labelControl12.TabIndex = 0;
-            this.labelControl12.Text = "Número: ";
-            // 
-            // txt_problemaSol
-            // 
-            this.txt_problemaSol.BackColor = System.Drawing.Color.White;
-            this.txt_problemaSol.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_problemaSol.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_problemaSol.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_problemaSol.Location = new System.Drawing.Point(73, 82);
-            this.txt_problemaSol.Multiline = true;
-            this.txt_problemaSol.Name = "txt_problemaSol";
-            this.txt_problemaSol.ReadOnly = true;
-            this.txt_problemaSol.Size = new System.Drawing.Size(336, 50);
-            this.txt_problemaSol.TabIndex = 20;
-            // 
-            // labelControl13
-            // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl13.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl13.Appearance.Options.UseFont = true;
-            this.labelControl13.Appearance.Options.UseForeColor = true;
-            this.labelControl13.Location = new System.Drawing.Point(9, 30);
-            this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(58, 16);
-            this.labelControl13.TabIndex = 1;
-            this.labelControl13.Text = "Elemento:";
-            // 
-            // txt_observacionSol
-            // 
-            this.txt_observacionSol.BackColor = System.Drawing.Color.White;
-            this.txt_observacionSol.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_observacionSol.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_observacionSol.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_observacionSol.Location = new System.Drawing.Point(526, 6);
-            this.txt_observacionSol.Multiline = true;
-            this.txt_observacionSol.Name = "txt_observacionSol";
-            this.txt_observacionSol.ReadOnly = true;
-            this.txt_observacionSol.Size = new System.Drawing.Size(345, 54);
-            this.txt_observacionSol.TabIndex = 19;
-            // 
-            // labelControl14
-            // 
-            this.labelControl14.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl14.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl14.Appearance.Options.UseFont = true;
-            this.labelControl14.Appearance.Options.UseForeColor = true;
-            this.labelControl14.Location = new System.Drawing.Point(9, 82);
-            this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(59, 16);
-            this.labelControl14.TabIndex = 2;
-            this.labelControl14.Text = "Problema:";
-            // 
-            // labelControl15
-            // 
-            this.labelControl15.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl15.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl15.Appearance.Options.UseFont = true;
-            this.labelControl15.Appearance.Options.UseForeColor = true;
-            this.labelControl15.Location = new System.Drawing.Point(189, 30);
-            this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(49, 16);
-            this.labelControl15.TabIndex = 3;
-            this.labelControl15.Text = "Técnico:";
-            // 
-            // txt_administradorSol
-            // 
-            this.txt_administradorSol.Location = new System.Drawing.Point(241, 28);
-            this.txt_administradorSol.Name = "txt_administradorSol";
-            this.txt_administradorSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.txt_administradorSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_administradorSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_administradorSol.Properties.Appearance.Options.UseBackColor = true;
-            this.txt_administradorSol.Properties.Appearance.Options.UseFont = true;
-            this.txt_administradorSol.Properties.Appearance.Options.UseForeColor = true;
-            this.txt_administradorSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txt_administradorSol.Properties.ReadOnly = true;
-            this.txt_administradorSol.Size = new System.Drawing.Size(206, 20);
-            this.txt_administradorSol.TabIndex = 15;
-            // 
-            // labelControl16
-            // 
-            this.labelControl16.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl16.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl16.Appearance.Options.UseFont = true;
-            this.labelControl16.Appearance.Options.UseForeColor = true;
-            this.labelControl16.Location = new System.Drawing.Point(190, 7);
-            this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(48, 16);
-            this.labelControl16.TabIndex = 4;
-            this.labelControl16.Text = "Usuario:";
-            // 
-            // txt_usuarioSol
-            // 
-            this.txt_usuarioSol.Location = new System.Drawing.Point(241, 5);
-            this.txt_usuarioSol.Name = "txt_usuarioSol";
-            this.txt_usuarioSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.txt_usuarioSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_usuarioSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_usuarioSol.Properties.Appearance.Options.UseBackColor = true;
-            this.txt_usuarioSol.Properties.Appearance.Options.UseFont = true;
-            this.txt_usuarioSol.Properties.Appearance.Options.UseForeColor = true;
-            this.txt_usuarioSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txt_usuarioSol.Properties.ReadOnly = true;
-            this.txt_usuarioSol.Size = new System.Drawing.Size(196, 20);
-            this.txt_usuarioSol.TabIndex = 14;
-            // 
-            // labelControl17
-            // 
-            this.labelControl17.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl17.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl17.Appearance.Options.UseFont = true;
-            this.labelControl17.Appearance.Options.UseForeColor = true;
-            this.labelControl17.Location = new System.Drawing.Point(189, 53);
-            this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(90, 16);
-            this.labelControl17.TabIndex = 5;
-            this.labelControl17.Text = "Departamento: ";
-            // 
-            // txt_departamentoSol
-            // 
-            this.txt_departamentoSol.Location = new System.Drawing.Point(282, 52);
-            this.txt_departamentoSol.Name = "txt_departamentoSol";
-            this.txt_departamentoSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.txt_departamentoSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_departamentoSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_departamentoSol.Properties.Appearance.Options.UseBackColor = true;
-            this.txt_departamentoSol.Properties.Appearance.Options.UseFont = true;
-            this.txt_departamentoSol.Properties.Appearance.Options.UseForeColor = true;
-            this.txt_departamentoSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txt_departamentoSol.Properties.ReadOnly = true;
-            this.txt_departamentoSol.Size = new System.Drawing.Size(236, 20);
-            this.txt_departamentoSol.TabIndex = 12;
-            // 
-            // labelControl18
-            // 
-            this.labelControl18.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl18.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl18.Appearance.Options.UseFont = true;
-            this.labelControl18.Appearance.Options.UseForeColor = true;
-            this.labelControl18.Location = new System.Drawing.Point(467, 80);
-            this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(57, 16);
-            this.labelControl18.TabIndex = 6;
-            this.labelControl18.Text = "Solución: ";
-            // 
-            // txt_pcOrigenSol
-            // 
-            this.txt_pcOrigenSol.Location = new System.Drawing.Point(72, 53);
-            this.txt_pcOrigenSol.Name = "txt_pcOrigenSol";
-            this.txt_pcOrigenSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.txt_pcOrigenSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_pcOrigenSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_pcOrigenSol.Properties.Appearance.Options.UseBackColor = true;
-            this.txt_pcOrigenSol.Properties.Appearance.Options.UseFont = true;
-            this.txt_pcOrigenSol.Properties.Appearance.Options.UseForeColor = true;
-            this.txt_pcOrigenSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txt_pcOrigenSol.Properties.ReadOnly = true;
-            this.txt_pcOrigenSol.Size = new System.Drawing.Size(112, 20);
-            this.txt_pcOrigenSol.TabIndex = 11;
-            // 
-            // labelControl19
-            // 
-            this.labelControl19.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl19.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl19.Appearance.Options.UseFont = true;
-            this.labelControl19.Appearance.Options.UseForeColor = true;
-            this.labelControl19.Location = new System.Drawing.Point(8, 54);
-            this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(64, 16);
-            this.labelControl19.TabIndex = 7;
-            this.labelControl19.Text = "PC origen: ";
-            // 
-            // txt_equipoSol
-            // 
-            this.txt_equipoSol.Location = new System.Drawing.Point(72, 29);
-            this.txt_equipoSol.Name = "txt_equipoSol";
-            this.txt_equipoSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.txt_equipoSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_equipoSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_equipoSol.Properties.Appearance.Options.UseBackColor = true;
-            this.txt_equipoSol.Properties.Appearance.Options.UseFont = true;
-            this.txt_equipoSol.Properties.Appearance.Options.UseForeColor = true;
-            this.txt_equipoSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txt_equipoSol.Properties.ReadOnly = true;
-            this.txt_equipoSol.Size = new System.Drawing.Size(111, 20);
-            this.txt_equipoSol.TabIndex = 10;
-            // 
-            // labelControl20
-            // 
-            this.labelControl20.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl20.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.labelControl20.Appearance.Options.UseFont = true;
-            this.labelControl20.Appearance.Options.UseForeColor = true;
-            this.labelControl20.Location = new System.Drawing.Point(445, 6);
-            this.labelControl20.Name = "labelControl20";
-            this.labelControl20.Size = new System.Drawing.Size(79, 16);
-            this.labelControl20.TabIndex = 8;
-            this.labelControl20.Text = "Observación: ";
-            // 
-            // txt_numeroSol
-            // 
-            this.txt_numeroSol.Location = new System.Drawing.Point(72, 6);
-            this.txt_numeroSol.Name = "txt_numeroSol";
-            this.txt_numeroSol.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.txt_numeroSol.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_numeroSol.Properties.Appearance.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_numeroSol.Properties.Appearance.Options.UseBackColor = true;
-            this.txt_numeroSol.Properties.Appearance.Options.UseFont = true;
-            this.txt_numeroSol.Properties.Appearance.Options.UseForeColor = true;
-            this.txt_numeroSol.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.txt_numeroSol.Properties.ReadOnly = true;
-            this.txt_numeroSol.Size = new System.Drawing.Size(109, 20);
-            this.txt_numeroSol.TabIndex = 9;
-            // 
-            // panelControl4
-            // 
-            this.panelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl4.Location = new System.Drawing.Point(2, 2);
-            this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(1235, 645);
-            this.panelControl4.TabIndex = 0;
-            // 
-            // worker_mostrarSolucionados
-            // 
-            this.worker_mostrarSolucionados.DoWork += new System.ComponentModel.DoWorkEventHandler(this.worker_mostrarSolucionados_DoWork);
-            this.worker_mostrarSolucionados.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.worker_mostrarSolucionados_RunWorkerCompleted);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.Filter = "*.png,|*.jpg";
-            this.openFileDialog1.Title = "Selector de imagen";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(20, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -3548,10 +3724,10 @@
             this.Name = "Form1";
             this.Text = "Control de reportes";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
-            this.panelControl2.ResumeLayout(false);
             this.pnl_filtrar.ResumeLayout(false);
             this.pnl_filtrar.PerformLayout();
             this.panel37.ResumeLayout(false);
@@ -3559,14 +3735,13 @@
             this.panel39.ResumeLayout(false);
             this.panel24.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pnl_pendientes)).EndInit();
-            this.pnl_pendientes.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1.Panel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
-            this.splitContainerControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl3.Panel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl3.Panel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl3)).EndInit();
-            this.splitContainerControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).EndInit();
-            this.panelControl6.ResumeLayout(false);
-            this.panelControl6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_estado.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_administrador.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_usuario.Properties)).EndInit();
@@ -3580,11 +3755,28 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.equipoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reporteDBDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.problemaPosibleBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reporteDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personalRHBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pnl_solucionados)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2.Panel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2.Panel2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_administradorSol.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_usuarioSol.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_departamentoSol.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_pcOrigenSol.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_equipoSol.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_numeroSol.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_administrar)).EndInit();
-            this.pnl_administrar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn_adicionarEquipos)).EndInit();
             this.btn_adicionarEquipos.ResumeLayout(false);
-            this.entornos.ResumeLayout(false);
             this.pnl_entorno.ResumeLayout(false);
             this.pnl_verEntornos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.hyperLinkEdit1.Properties)).EndInit();
@@ -3606,7 +3798,6 @@
             this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.check_entornoAdicionarEnUso.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_nombreEntornoAdicionar.Properties)).EndInit();
-            this.equipos.ResumeLayout(false);
             this.pnl_equipos.ResumeLayout(false);
             this.pnl_editarEquipo.ResumeLayout(false);
             this.pnl_editarEquipo.PerformLayout();
@@ -3636,7 +3827,6 @@
             this.panel36.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.check_equipoadicionar.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_nombreEquipoAdicionar.Properties)).EndInit();
-            this.administradores.ResumeLayout(false);
             this.pnl_administrador.ResumeLayout(false);
             this.pnl_verAdministrador.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.hyperLinkEdit2.Properties)).EndInit();
@@ -3663,36 +3853,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.text_dirFotoAdminAdicionar.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.check_administradorEditarEnUsoAdicionar.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_nombreAdministradorAdicionar.Properties)).EndInit();
-            this.reportes.ResumeLayout(false);
             this.panel45.ResumeLayout(false);
             this.panel45.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboProblema.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reporteDBEntitiesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboEquipo.Properties)).EndInit();
             this.panel47.ResumeLayout(false);
             this.panel47.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboTrabajadores.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.personalRHBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditNombrePC.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditObservacion.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).EndInit();
-            this.panelControl5.ResumeLayout(false);
-            this.panelControl5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pnl_solucionados)).EndInit();
-            this.pnl_solucionados.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).EndInit();
-            this.splitContainerControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl9)).EndInit();
-            this.panelControl9.ResumeLayout(false);
-            this.panelControl9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_administradorSol.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_usuarioSol.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_departamentoSol.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_pcOrigenSol.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_equipoSol.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_numeroSol.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3705,11 +3869,11 @@
         private DevExpress.XtraEditors.TileGroup tileGroup1;
         private DevExpress.XtraEditors.TileItem tileItem1;
         private DevExpress.XtraEditors.TileItem tileItem2;
+        private DevExpress.XtraEditors.TileItem tileItem3;
         private DevExpress.XtraEditors.TileGroup tileGroup2;
         private DevExpress.XtraEditors.SplitterControl splitterControl1;
         private DevExpress.XtraEditors.PanelControl pnl_pendientes;
         private DevExpress.XtraEditors.PanelControl pnl_solucionados;
-        private DevExpress.XtraEditors.PanelControl pnl_administrar;
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl2;
         private DevExpress.XtraEditors.PanelControl panelControl7;
@@ -3765,85 +3929,95 @@
         private DevExpress.XtraEditors.LabelControl labelControl20;
         private DevExpress.XtraEditors.TextEdit txt_numeroSol;
         private System.Windows.Forms.TextBox txt_solucionSol;
+        private System.ComponentModel.BackgroundWorker worker_mostrarSolucionados;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Panel panel33;
+        private System.Windows.Forms.Button btn_configurar;
+        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.Panel panel35;
+        private System.Windows.Forms.Panel panel37;
+        private System.Windows.Forms.Panel panel38;
+        private System.Windows.Forms.Label lbl_titulo;
+        private System.Windows.Forms.Panel panel39;
+        private System.Windows.Forms.Panel panel40;
+        private DevExpress.XtraWaitForm.ProgressPanel prog_cargandoSolucionados;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Panel panel42;
+        private System.Windows.Forms.Panel panel43;
+        private System.Windows.Forms.Panel pnl_filtrar;
+        private System.Windows.Forms.TextBox txt_nombreFilter;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label label22;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.BindingSource personalRHBindingSource;
+        private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
+        private reporteDBDataSet reporteDBDataSet;
+        private System.Windows.Forms.BindingSource problemaPosibleBindingSource;
+        private reporteDBDataSet1TableAdapters.ProblemaPosibleTableAdapter problemaPosibleTableAdapter;
+        private ReporteDBDataSet1 reporteDBDataSet1;
+        private System.Windows.Forms.BindingSource equipoBindingSource;
+        private ReporteDBDataSet1TableAdapters.EquipoTableAdapter equipoTableAdapter;
         private DevExpress.XtraEditors.PanelControl panelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl21;
+        private DevExpress.XtraEditors.PanelControl pnl_administrar;
         private DevExpress.XtraTab.XtraTabControl btn_adicionarEquipos;
         private DevExpress.XtraTab.XtraTabPage entornos;
-        private DevExpress.XtraTab.XtraTabPage equipos;
         private System.Windows.Forms.Panel pnl_entorno;
-        private System.Windows.Forms.Panel pnl_editarEntorno;
-        private System.Windows.Forms.Panel pnl_adicionarEntorno;
-        private System.Windows.Forms.Label lbl_editarEntorno;
-        private System.Windows.Forms.Label label1;
-        private DevExpress.XtraEditors.TextEdit txt_nombreEntornoAdicionar;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label2;
-        private DevExpress.XtraEditors.TextEdit txt_nombreEntornoEditar;
-        private DevExpress.XtraEditors.CheckEdit check_entornoEditarEnUso;
-        private DevExpress.XtraEditors.CheckEdit check_entornoAdicionarEnUso;
-        private DevExpress.XtraTab.XtraTabPage administradores;
-        private DevExpress.XtraTab.XtraTabPage reportes;
-        private System.Windows.Forms.Panel pnl_adicionarAdministrador;
-        private System.Windows.Forms.Button btn_adicionarAdministrador;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel pnl_editarAdministrador;
-        private DevExpress.XtraEditors.CheckEdit check_administradorEditarEnUso;
-        private System.Windows.Forms.Button btn_editarAdministrador;
-        private System.Windows.Forms.Label label5;
-        private DevExpress.XtraEditors.TextEdit txt_nombreAdministradorEditar;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.TextEdit text_dirFotoAdminAdicionar;
-        private DevExpress.XtraEditors.CheckEdit check_administradorEditarEnUsoAdicionar;
-        private System.Windows.Forms.Label label8;
-        private DevExpress.XtraEditors.TextEdit txt_nombreAdministradorAdicionar;
         private System.Windows.Forms.Panel pnl_verEntornos;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel8;
+        private DevExpress.XtraEditors.HyperLinkEdit hyperLinkEdit1;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.DataGridView dtg_entornos;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Button btn_adicionarEntornos;
-        private System.Windows.Forms.Button btn_verEntornos;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Panel pnl_administrador;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button btn_adicionarAdministradores;
-        private System.Windows.Forms.Button btn_verAdministradores;
-        private System.Windows.Forms.Panel pnl_verAdministrador;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridViewTextBoxColumn idEntorno;
         private System.Windows.Forms.DataGridViewTextBoxColumn Entorno;
         private System.Windows.Forms.DataGridViewLinkColumn Editar;
-        private System.Windows.Forms.DataGridView dtg_Administrador;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idAdministrador;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
-        private System.Windows.Forms.DataGridViewLinkColumn edit;
-        private DevExpress.XtraEditors.HyperLinkEdit hyperLinkEdit2;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel21;
-        private DevExpress.XtraEditors.HyperLinkEdit hyperLinkEdit1;
-        private System.Windows.Forms.Panel panel7;
-        private System.ComponentModel.BackgroundWorker worker_mostrarSolucionados;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Button btn_adicionarEntornos;
+        private System.Windows.Forms.Button btn_verEntornos;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel pnl_editarEntorno;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Label label11;
+        private DevExpress.XtraEditors.CheckEdit check_entornoEditarEnUso;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label2;
+        private DevExpress.XtraEditors.TextEdit txt_nombreEntornoEditar;
+        private System.Windows.Forms.Label lbl_editarEntorno;
+        private System.Windows.Forms.Panel pnl_adicionarEntorno;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label label10;
+        private DevExpress.XtraEditors.CheckEdit check_entornoAdicionarEnUso;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private DevExpress.XtraEditors.TextEdit txt_nombreEntornoAdicionar;
+        private DevExpress.XtraTab.XtraTabPage equipos;
         private System.Windows.Forms.Panel pnl_equipos;
-        private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btn_equipos;
+        private System.Windows.Forms.Panel pnl_editarEquipo;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label21;
+        public System.Windows.Forms.DataGridView dtg_problemasPosibles;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn inactivo;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn comsumible;
+        private System.Windows.Forms.DataGridViewLinkColumn quitar;
+        private DevExpress.XtraEditors.TextEdit txt_problemaAdd;
+        private System.Windows.Forms.Button btn_addProblema;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel panel34;
+        private System.Windows.Forms.Label label15;
+        private DevExpress.XtraEditors.CheckEdit check_equipoEditar;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label16;
+        private DevExpress.XtraEditors.TextEdit txt_nombreEquipoEditar;
+        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel pnl_verEquipo;
         private DevExpress.XtraEditors.HyperLinkEdit hyperLinkEdit3;
         private System.Windows.Forms.Panel panel27;
@@ -3856,91 +4030,87 @@
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Label lbl_entornos;
+        private System.Windows.Forms.Panel panel25;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_equipos;
         private System.Windows.Forms.Panel panel32;
-        private System.Windows.Forms.Panel pnl_editarEquipo;
-        private System.Windows.Forms.Panel panel34;
-        private System.Windows.Forms.Label label15;
-        private DevExpress.XtraEditors.CheckEdit check_equipoEditar;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label16;
-        private DevExpress.XtraEditors.TextEdit txt_nombreEquipoEditar;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel pnl_adicionarEquipo;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label lbl_markeparaDes;
+        public System.Windows.Forms.DataGridView dtg_problemaAdicionar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn2;
+        private System.Windows.Forms.DataGridViewLinkColumn dataGridViewLinkColumn2;
+        private DevExpress.XtraEditors.TextEdit txt_problemaEquipoAdicionar;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Label label18;
         private DevExpress.XtraEditors.CheckEdit check_equipoadicionar;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label19;
         private DevExpress.XtraEditors.TextEdit txt_nombreEquipoAdicionar;
-        private System.Windows.Forms.Label label14;
-        private DevExpress.XtraEditors.TextEdit txt_problemaAdd;
-        private System.Windows.Forms.Button btn_addProblema;
-        private System.Windows.Forms.Panel panel23;
-        public System.Windows.Forms.DataGridView dtg_problemasPosibles;
-        private System.Windows.Forms.Panel panel26;
-        public System.Windows.Forms.DataGridView dtg_problemaAdicionar;
-        private DevExpress.XtraEditors.TextEdit txt_problemaEquipoAdicionar;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label lbl_markeparaDes;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn inactivo;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn comsumible;
-        private System.Windows.Forms.DataGridViewLinkColumn quitar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
-        private System.Windows.Forms.DataGridViewLinkColumn dataGridViewLinkColumn2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Button btn_configurar;
-        private System.Windows.Forms.Panel panel24;
-        private System.Windows.Forms.Panel panel35;
-        private System.Windows.Forms.Panel panel37;
-        private System.Windows.Forms.Panel panel38;
-        private System.Windows.Forms.Label lbl_titulo;
-        private System.Windows.Forms.Panel panel39;
-        private System.Windows.Forms.Panel panel40;
+        private DevExpress.XtraTab.XtraTabPage administradores;
+        private System.Windows.Forms.Panel pnl_administrador;
+        private System.Windows.Forms.Panel pnl_verAdministrador;
+        private DevExpress.XtraEditors.HyperLinkEdit hyperLinkEdit2;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.DataGridView dtg_Administrador;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idAdministrador;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewLinkColumn edit;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Button btn_adicionarAdministradores;
+        private System.Windows.Forms.Button btn_verAdministradores;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel pnl_editarAdministrador;
+        private DevExpress.XtraEditors.CheckEdit check_administradorEditarTecnico;
         private System.Windows.Forms.Panel panel41;
         private System.Windows.Forms.Button btn_foto;
-        private DevExpress.XtraWaitForm.ProgressPanel prog_cargandoSolucionados;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Panel panel42;
-        private System.Windows.Forms.Panel panel43;
-        private System.Windows.Forms.Panel pnl_filtrar;
-        private System.Windows.Forms.TextBox txt_nombreFilter;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn2;
-        private DevExpress.XtraEditors.CheckEdit check_administradorEditarTecnico;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Label label6;
+        private DevExpress.XtraEditors.CheckEdit check_administradorEditarEnUso;
+        private System.Windows.Forms.Button btn_editarAdministrador;
+        private System.Windows.Forms.Label label5;
+        private DevExpress.XtraEditors.TextEdit txt_nombreAdministradorEditar;
+        private System.Windows.Forms.Panel pnl_adicionarAdministrador;
         private DevExpress.XtraEditors.CheckEdit check_administradorEditarTecnicoAdicionar;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.BindingSource reporteDBEntitiesBindingSource;
-        private System.Windows.Forms.BindingSource personalRHBindingSource;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label3;
+        private DevExpress.XtraEditors.TextEdit text_dirFotoAdminAdicionar;
+        private DevExpress.XtraEditors.CheckEdit check_administradorEditarEnUsoAdicionar;
+        private System.Windows.Forms.Label label8;
+        private DevExpress.XtraEditors.TextEdit txt_nombreAdministradorAdicionar;
+        private System.Windows.Forms.Button btn_adicionarAdministrador;
+        private System.Windows.Forms.Label label4;
+        private DevExpress.XtraTab.XtraTabPage reportes;
         private System.Windows.Forms.Panel panel45;
+        private System.Windows.Forms.TextBox textEditNombrePC;
+        private System.Windows.Forms.TextBox textObservacion;
+        private System.Windows.Forms.ComboBox comboEquipo;
+        private System.Windows.Forms.ComboBox comboProblema;
+        private System.Windows.Forms.ComboBox comboTrabajadores;
+        private System.Windows.Forms.Button buttonAñadirReporte;
+        private System.Windows.Forms.Label labelObservacion;
+        private System.Windows.Forms.Label labelNombrePC;
+        private System.Windows.Forms.Label labelProblema;
+        private System.Windows.Forms.Label labelEquipo;
         private System.Windows.Forms.Panel panel47;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label labelTrabajadores;
         private System.Windows.Forms.Panel panel44;
-        private DevExpress.XtraEditors.ComboBoxEdit comboTrabajadores;
-        private System.Windows.Forms.Label labelEquipo;
-        private DevExpress.XtraEditors.ComboBoxEdit comboEquipo;
-        private System.Windows.Forms.Label labelNombrePC;
-        private System.Windows.Forms.Label labelProblema;
-        private DevExpress.XtraEditors.ComboBoxEdit comboProblema;
-        private System.Windows.Forms.Label labelObservacion;
-        private DevExpress.XtraEditors.TextEdit textEditNombrePC;
-        private DevExpress.XtraEditors.TextEdit textEditObservacion;
-        private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
-        private System.Windows.Forms.Button buttonAñadirReporte;
     }
 }
 

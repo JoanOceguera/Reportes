@@ -64,7 +64,7 @@ namespace ReportesApp.ControlEntidades
         {
             try
             {
-                cnx.Consecutivo.AddObject(consecutivo);
+                cnx.Consecutivo.Add(consecutivo);
                 cnx.SaveChanges();   
             }
             catch (Exception msg)

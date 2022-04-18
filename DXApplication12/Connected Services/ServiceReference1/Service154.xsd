@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ServicioWebRH.Datos" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ServicioWebRH.Datos" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfPersonal">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Personal" nillable="true" type="tns:Personal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonal" nillable="true" type="tns:ArrayOfPersonal" />
+  <xs:complexType name="Personal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellido1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Apellido2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarneId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Exp" type="xs:int" />
+      <xs:element minOccurs="0" name="Fotolector" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PersonalImagen" nillable="true" type="tns:ArrayOfPersonalImagen" />
+      <xs:element minOccurs="0" name="Raza" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Personal" nillable="true" type="tns:Personal" />
+  <xs:complexType name="ArrayOfPersonalImagen">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PersonalImagen" nillable="true" type="tns:PersonalImagen" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonalImagen" nillable="true" type="tns:ArrayOfPersonalImagen" />
+  <xs:complexType name="PersonalImagen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DirImagen" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Imagen" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="NombreDedo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:Personal" />
+      <xs:element minOccurs="0" name="Solapin" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersonalImagen" nillable="true" type="tns:PersonalImagen" />
+  <xs:complexType name="ArrayOfAgrupaciones">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Agrupaciones" nillable="true" type="tns:Agrupaciones" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAgrupaciones" nillable="true" type="tns:ArrayOfAgrupaciones" />
+  <xs:complexType name="Agrupaciones">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alias" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BaseDatos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Departamentos" nillable="true" type="tns:ArrayOfDepartamentos" />
+      <xs:element minOccurs="0" name="Id_Agrup" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Id_Scta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nom_Agrup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Produce" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Agrupaciones" nillable="true" type="tns:Agrupaciones" />
+  <xs:complexType name="ArrayOfDepartamentos">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Departamentos" nillable="true" type="tns:Departamentos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDepartamentos" nillable="true" type="tns:ArrayOfDepartamentos" />
+  <xs:complexType name="Departamentos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Agrupaciones" nillable="true" type="tns:Agrupaciones" />
+      <xs:element minOccurs="0" name="BajaPlantilla" nillable="true" type="tns:ArrayOfBajaPlantilla" />
+      <xs:element minOccurs="0" name="Id_Agrup" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Id_Dpto" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Nom_Dpto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Plantilla" nillable="true" type="tns:ArrayOfPlantilla" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Departamentos" nillable="true" type="tns:Departamentos" />
+  <xs:complexType name="ArrayOfBajaPlantilla">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BajaPlantilla" nillable="true" type="tns:BajaPlantilla" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBajaPlantilla" nillable="true" type="tns:ArrayOfBajaPlantilla" />
+  <xs:complexType name="BajaPlantilla">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="Basico" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CTecnica" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CTecnologica" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Cod_Plaza" type="xs:short" />
+      <xs:element minOccurs="0" name="Condiciones" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Departamento" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Departamentos" nillable="true" type="tns:Departamentos" />
+      <xs:element minOccurs="0" name="EspecialistaP" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GSalarial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MNomina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ocupacion" type="xs:short" />
+      <xs:element minOccurs="0" name="Plazas" nillable="true" type="tns:Plazas" />
+      <xs:element minOccurs="0" name="Plus" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RCITMA" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Resolucion" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BajaPlantilla" nillable="true" type="tns:BajaPlantilla" />
+  <xs:complexType name="ArrayOfBajasPers">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BajasPers" nillable="true" type="tns:BajasPers" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+  <xs:complexType name="BajasPers">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alta" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Antiguedad" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Apellido1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Apellido2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Baja" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BajaPlantilla" nillable="true" type="tns:BajaPlantilla" />
+      <xs:element minOccurs="0" name="CBiotecnologicas" nillable="true" type="tns:CBiotecnologicas" />
+      <xs:element minOccurs="0" name="CCientificas" nillable="true" type="tns:CCientificas" />
+      <xs:element minOccurs="0" name="CDocente" nillable="true" type="tns:CDocente" />
+      <xs:element minOccurs="0" name="COcupacional" nillable="true" type="tns:COcupacional" />
+      <xs:element minOccurs="0" name="CTecnologicas" nillable="true" type="tns:CTecnologicas" />
+      <xs:element minOccurs="0" name="Cargo" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CarneId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategBTecno" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategCient" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategDoc" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategOcup" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategTecno" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Clasificacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContabilidadC" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Contrata" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dirigente" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Especialidad" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Exp" type="xs:short" />
+      <xs:element minOccurs="0" name="Foto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCientifico" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCientifico1" nillable="true" type="tns:GCientifico" />
+      <xs:element minOccurs="0" name="Gelectrogeno" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GradoCient" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="IdPlaza" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Militancia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Motivo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mpio" type="xs:short" />
+      <xs:element minOccurs="0" name="Municipios" nillable="true" type="tns:Municipios" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pais" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Profesion" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Provincia" type="xs:short" />
+      <xs:element minOccurs="0" name="Sucursal" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BajasPers" nillable="true" type="tns:BajasPers" />
+  <xs:complexType name="CBiotecnologicas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="Cod_CBT" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Nomb_CBT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CBiotecnologicas" nillable="true" type="tns:CBiotecnologicas" />
+  <xs:complexType name="ArrayOfPersonalRH">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PersonalRH" nillable="true" type="tns:PersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonalRH" nillable="true" type="tns:ArrayOfPersonalRH" />
+  <xs:complexType name="PersonalRH">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alta" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Antiguedad" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Apellido1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Apellido2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CBiotecnologicas" nillable="true" type="tns:CBiotecnologicas" />
+      <xs:element minOccurs="0" name="CCientificas" nillable="true" type="tns:CCientificas" />
+      <xs:element minOccurs="0" name="CDocente" nillable="true" type="tns:CDocente" />
+      <xs:element minOccurs="0" name="COcupacional" nillable="true" type="tns:COcupacional" />
+      <xs:element minOccurs="0" name="CTecnologicas" nillable="true" type="tns:CTecnologicas" />
+      <xs:element minOccurs="0" name="Cargo" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CarneId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategBTecno" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategCient" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategDoc" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategOcup" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="CategTecno" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Clasificacion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContabilidadC" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Contrata" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Curriculum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dirigente" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Especialidad" nillable="true" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="EstudiosTerminados" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Exp" type="xs:int" />
+      <xs:element minOccurs="0" name="Foto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fotolector" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GCientifico" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GCientifico1" nillable="true" type="tns:GCientifico" />
+      <xs:element minOccurs="0" name="GElectrogeno" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GradoCient" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="IdPlaza" type="xs:short" />
+      <xs:element minOccurs="0" name="Militancia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mpio" type="xs:short" />
+      <xs:element minOccurs="0" name="Municipios" nillable="true" type="tns:Municipios" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pais" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Plantilla" nillable="true" type="tns:Plantilla" />
+      <xs:element minOccurs="0" name="Profesion" nillable="true" type="xs:short" />
+      <xs:element minOccurs="0" name="Provincia" type="xs:short" />
+      <xs:element minOccurs="0" name="Raza" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sucursal" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersonalRH" nillable="true" type="tns:PersonalRH" />
+  <xs:complexType name="CCientificas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="Cod_CC" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Nomb_CC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CCientificas" nillable="true" type="tns:CCientificas" />
+  <xs:complexType name="CDocente">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="Cod_CD" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Nomb_CD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CDocente" nillable="true" type="tns:CDocente" />
+  <xs:complexType name="COcupacional">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="Cod_CO" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Nomb_CO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="COcupacional" nillable="true" type="tns:COcupacional" />
+  <xs:complexType name="CTecnologicas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="Cod_CT" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Nomb_CT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CTecnologicas" nillable="true" type="tns:CTecnologicas" />
+  <xs:complexType name="GCientifico">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="Cod_GC" type="xs:short" />
+      <xs:element minOccurs="0" name="Cuantia" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Des_GC" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GCientifico" nillable="true" type="tns:GCientifico" />
+  <xs:complexType name="Municipios">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajasPers" nillable="true" type="tns:ArrayOfBajasPers" />
+      <xs:element minOccurs="0" name="C_Municipio" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Cod_Mpio" type="xs:short" />
+      <xs:element minOccurs="0" name="Id_Pais" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id_Prov" type="xs:short" />
+      <xs:element minOccurs="0" name="Nomb_Mpio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Municipios" nillable="true" type="tns:Municipios" />
+  <xs:complexType name="Plantilla">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Basico" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CTecnica" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CTecnologica" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Cod_Plaza" type="xs:short" />
+      <xs:element minOccurs="0" name="Condiciones" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Departamento" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Departamentos" nillable="true" type="tns:Departamentos" />
+      <xs:element minOccurs="0" name="EspecialistaP" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GSalarial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MNomina" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ocupacion" type="xs:short" />
+      <xs:element minOccurs="0" name="Personal" nillable="true" type="tns:ArrayOfPersonalRH" />
+      <xs:element minOccurs="0" name="Plazas" nillable="true" type="tns:Plazas" />
+      <xs:element minOccurs="0" name="Plus" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RCITMA" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Resolucion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Vacante" type="xs:unsignedByte" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Plantilla" nillable="true" type="tns:Plantilla" />
+  <xs:complexType name="Plazas">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BajaPlantilla" nillable="true" type="tns:ArrayOfBajaPlantilla" />
+      <xs:element minOccurs="0" name="Id_Ocup" type="xs:short" />
+      <xs:element minOccurs="0" name="Nom_Ocup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Plantilla" nillable="true" type="tns:ArrayOfPlantilla" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Plazas" nillable="true" type="tns:Plazas" />
+  <xs:complexType name="ArrayOfPlantilla">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Plantilla" nillable="true" type="tns:Plantilla" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlantilla" nillable="true" type="tns:ArrayOfPlantilla" />
+  <xs:complexType name="ArrayOfRegistroESpejo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RegistroESpejo" nillable="true" type="tns:RegistroESpejo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRegistroESpejo" nillable="true" type="tns:ArrayOfRegistroESpejo" />
+  <xs:complexType name="RegistroESpejo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exp" type="xs:int" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RegistroESpejo" nillable="true" type="tns:RegistroESpejo" />
+</xs:schema>

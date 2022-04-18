@@ -95,7 +95,7 @@ namespace ReportesApp.ControlEntidades
         {
             try
             {
-                cnx.Equipo.AddObject(equipo);
+                cnx.Equipo.Add(equipo);
                 cnx.SaveChanges();   
             }
             catch (Exception msg)
@@ -114,7 +114,8 @@ namespace ReportesApp.ControlEntidades
                 Equipo equip = this.GetEquipo(equipo.idEquipo);
                 if (equip != null)
                 {
-                    cnx.Equipo.ApplyCurrentValues(equip);
+                    equip = equipo;
+                    //cnx.Equipo.ApplyCurrentValues(equip);
                     cnx.SaveChanges();
                 }
             }

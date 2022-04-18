@@ -127,6 +127,8 @@
     <NavigationProperty Name="Entorno" Relationship="ReporteDBModel.FK_Reporte_Entorno" FromRole="Reporte" ToRole="Entorno" />
     <NavigationProperty Name="Equipo" Relationship="ReporteDBModel.FK_Reporte_Equipo" FromRole="Reporte" ToRole="Equipo" />
     <NavigationProperty Name="ProblemaPosible" Relationship="ReporteDBModel.FK_Reporte_ProblemaPosible" FromRole="Reporte" ToRole="ProblemaPosible" />
+    <Property Name="orden" Type="Int32" />
+    <Property Name="observacionTecnica" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="ReporteSolucionado">
     <Key>

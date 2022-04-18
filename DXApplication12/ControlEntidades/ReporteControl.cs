@@ -90,10 +90,11 @@ namespace ReportesApp.ControlEntidades
         {
             get
             {
-                List<Reporte> reportes = (from report in cnx.Reporte
-                                          orderby report.fecha_hora ascending
-                                          select report).ToList();                
-                return reportes;
+                List<Reporte> list = (
+                    from report in base.cnx.Reporte
+                    orderby report.fecha_hora
+                    select report).ToList<Reporte>();
+                return list;
             }
         }
 
@@ -165,17 +166,24 @@ namespace ReportesApp.ControlEntidades
         }
 
         /// <summary>
-        /// Obtiene una lista de los repores con fecha mayor a fecha pasada por parametro.
+        /// Obtiene una lista de los reportes con fecha mayor a fecha pasada por parametro.
         /// </summary>        
         public List<Reporte> GetReportesPosteriorA(DateTime fecha)
         {
-            List<Reporte> reportes = cnx.Reporte.Where(x => x.fecha_hora > fecha).OrderBy(x => x.fecha_hora).ToList();
-            List<Reporte> reportesUsuario = new List<Reporte>();
-            foreach (var item in reportes)
+            List<Reporte> list = (
+                from x in base.cnx.Reporte
+                where x.fecha_hora > fecha
+                orderby x.fecha_hora
+                select x).ToList<Reporte>();
+            List<Reporte> reportes = new List<Reporte>();
+            foreach (Reporte reporte in list)
             {
-                reportesUsuario.Add(item);
+                if ((reporte.Administrador == null ? true : reporte.Administrador.nombre != "Eliminado"))
+                {
+                    reportes.Add(reporte);
+                }
             }
-            return reportesUsuario;
+            return reportes;
         }
 
         /// <summary>
@@ -186,7 +194,7 @@ namespace ReportesApp.ControlEntidades
         {
             try
             {
-                cnx.Reporte.AddObject(reporte);
+                cnx.Reporte.Add(reporte);
                 cnx.SaveChanges();
             }
             catch (Exception msg)
@@ -205,7 +213,7 @@ namespace ReportesApp.ControlEntidades
                 Reporte report = this.GetReporte(reporte.idReporte);
                 if (report != null)
                 {
-                    cnx.Reporte.ApplyCurrentValues(report);
+                    report = reporte;
                     cnx.SaveChanges();
                 }
             }
@@ -262,7 +270,7 @@ namespace ReportesApp.ControlEntidades
             try
             {
                 Reporte rborrar = this.GetReporte(reporte.idReporte);
-                this.cnx.DeleteObject(rborrar);                
+                this.cnx.Reporte.Remove(rborrar);                
                 this.cnx.SaveChanges();
             }
             catch (Exception msg)

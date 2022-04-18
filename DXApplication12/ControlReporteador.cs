@@ -8,6 +8,11 @@ using ReportesApp;
 using ReporteApp;
 using HMAC;
 using System.Security.Cryptography;
+using Microsoft.Office.Interop.Excel;
+using System.Windows.Forms;
+using System.Reflection;
+using Application = Microsoft.Office.Interop.Excel.Application;
+using System.Drawing;
 
 namespace ReportesApp
 {
@@ -25,6 +30,8 @@ namespace ReportesApp
         DateTime fechaUltimoRepoPendienteTraido = new DateTime(100,1,1);
         String literalCheckeoInicioNombrePC = "INF";
         String salt = "860407";
+        private Application objApp;
+        private _Workbook objBook;
 
 
         public ControlReporteadorUsuario()
@@ -296,6 +303,11 @@ namespace ReportesApp
             else throw new CustomException("No existe un reporte en la base de datos con el id: " + idReporte.ToString());            
         }
 
+        public void CambiarOrdenReporte (Reporte reporte)
+        {
+            this.creporte.Editar(reporte);
+        }
+
         public void ConcluirReporte(int idReporte, String solucionAdministrador)
         { 
             Reporte repo = this.GetReportePorId(idReporte);
@@ -441,6 +453,195 @@ namespace ReportesApp
         public List<AdministradorCantSolucionados> GetRankingAdministradoresApartirDe(DateTime fecha)
         {
             return this.creporteSol.GetRankingAdministradoresApartirDe(fecha);
+        }
+
+        public void GenerarExcelReportes()
+        {
+            try
+            {
+                this.objApp = (Microsoft.Office.Interop.Excel.Application)new Microsoft.Office.Interop.Excel.Application();
+                this.objBook = this.objApp.Workbooks.Add(Missing.Value);
+                Sheets worksheets = this.objBook.Worksheets;
+                worksheets.Add(Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+                _Worksheet item = (_Worksheet)worksheets.get_Item((1));
+                int num = this.Cuerpo(item, 1, 2);
+                this.FilaxArea(item, 1, num);
+                Range rg = item.get_Range("A1", "J1");
+                Range rgLD = item.get_Range("C1", "H1");
+                rg.EntireColumn.AutoFit();
+                rgLD.EntireColumn.NumberFormat = "0.00";
+
+                item.Name = "Resumen de Reportes";
+                this.objApp.Visible = true;
+                this.objApp.UserControl = true;
+            }
+            catch (Exception exception1)
+            {
+                Exception exception = exception1;
+                MessageBox.Show(string.Concat("Error: ", exception.Message, " Line: ", exception.Source), "Error");
+            }
+        }
+
+
+
+        private int Cuerpo(_Worksheet worksheet, int columna, int fila)
+        {
+            columna = 64 + columna;
+            int num = columna;
+            int num1 = fila;
+            char chr = Convert.ToChar(num);
+            string str = string.Concat(chr.ToString(), num1.ToString());
+            Range range = worksheet.get_Range(str, str);
+            range.Cells.Merge(Missing.Value);
+            range.HorizontalAlignment = HorizontalAlignment.Center;
+            range[Missing.Value] = "Número";
+            chr = Convert.ToChar(num + 1);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range variable = worksheet.get_Range(str, str);
+            variable.Cells.Merge(Missing.Value);
+            variable.HorizontalAlignment = HorizontalAlignment.Center;
+            variable[Missing.Value] = "Fecha";
+            variable.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            chr = Convert.ToChar(num + 2);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range range1 = worksheet.get_Range(str, str);
+            range1.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            range1[Missing.Value] = "Equipo";
+            chr = Convert.ToChar(num + 3);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range variable1 = worksheet.get_Range(str, str);
+            variable1.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            variable1[Missing.Value] = "Problema";
+            chr = Convert.ToChar(num + 4);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range range2 = worksheet.get_Range(str, str);
+            range2.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            range2.Cells.Merge(Missing.Value);
+            range2.HorizontalAlignment = HorizontalAlignment.Center;
+            range2[Missing.Value] = "Observación";
+            chr = Convert.ToChar(num + 5);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range variable2 = worksheet.get_Range(str, str);
+            variable2.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            variable2.Cells.Merge(Missing.Value);
+            variable2.HorizontalAlignment = HorizontalAlignment.Center;
+            variable2[Missing.Value] = "Técnico Defectando";
+            chr = Convert.ToChar(num + 6);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range range3 = worksheet.get_Range(str, str);
+            range3.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            range3.Cells.Merge(Missing.Value);
+            range3.HorizontalAlignment = HorizontalAlignment.Center;
+            range3[Missing.Value] = "Estado";
+            chr = Convert.ToChar(num + 7);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range variable3 = worksheet.get_Range(str, str);
+            variable3.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            variable3.Cells.Merge(Missing.Value);
+            variable3.HorizontalAlignment = HorizontalAlignment.Center;
+            variable3[Missing.Value] = "Cliente";
+            chr = Convert.ToChar(num + 8);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range range4 = worksheet.get_Range(str, str);
+            range4.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            range4.Cells.Merge(Missing.Value);
+            range4.HorizontalAlignment = HorizontalAlignment.Center;
+            range4[Missing.Value] = "Área";
+            chr = Convert.ToChar(num + 9);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            Range variable4 = worksheet.get_Range(str, str);
+            variable4.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            variable4.Cells.Merge(Missing.Value);
+            variable4.HorizontalAlignment = HorizontalAlignment.Center;
+            variable4[Missing.Value] = "PC";
+            chr = Convert.ToChar(num);
+            str = string.Concat(chr.ToString(), num1.ToString());
+            chr = Convert.ToChar(num + 9);
+            string str1 = string.Concat(chr.ToString(), num1.ToString());
+            Range white = worksheet.get_Range(str, str);
+            white.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+            white.Interior.Color = Color.White;
+            return num1 + 1;
+        }
+
+
+        private int FilaxArea(_Worksheet worksheet, int columna, int fila)
+        {
+            int num;
+            int num1 = fila;
+            int num2 = 0;
+            try
+            {
+                columna = 64 + columna;
+                int num3 = columna;
+                List<Reporte> list = (
+                    from x in this.GetReportesPendientes()
+                    orderby x.numero
+                    select x).ToList<Reporte>();
+                List<object[,]> objArrays = new List<object[,]>();
+                foreach (Reporte reporte in list)
+                {
+                    string equipo = this.GetEquipo(reporte.idEquipo).nombre;
+                    string problemaPosible = this.cproblemaPosible.GetProblemaPosible(reporte.idProblemaPosible).problemaInfo;
+                    string administrador = "";
+                    if (reporte.idAdministradorDefectando.HasValue)
+                    {
+                        administrador = this.GetAdministrador(reporte.idAdministradorDefectando.Value).nombre;
+                    }
+                    string str = "";
+                    string str1 = reporte.estado;
+                    if (str1 != null)
+                    {
+                        if (str1 != "d")
+                        {
+                            goto Label3;
+                        }
+                        str = "Defectando";
+                        goto Label1;
+                    }
+                Label3:
+                    str = "Pendiente";
+                Label1:
+                    object[,] shortDateString = new object[1, 10];
+                    shortDateString[0, 0] = reporte.numero;
+                    shortDateString[0, 1] = reporte.fecha_hora.Date.ToShortDateString();
+                    shortDateString[0, 2] = equipo;
+                    shortDateString[0, 3] = problemaPosible;
+                    shortDateString[0, 4] = reporte.observacion;
+                    shortDateString[0, 5] = administrador;
+                    shortDateString[0, 6] = str;
+                    shortDateString[0, 7] = reporte.nombreCliente;
+                    shortDateString[0, 8] = reporte.departamento;
+                    shortDateString[0, 9] = reporte.nombrePC;
+                    objArrays.Add(shortDateString);
+                }
+                foreach (object[,] objArray in objArrays)
+                {
+                    char chr = Convert.ToChar(num3);
+                    int num4 = num1 + num2;
+                    string str2 = string.Concat(chr.ToString(), num4.ToString());
+                    chr = Convert.ToChar(num3 + 9);
+                    num4 = num1 + num2;
+                    string str3 = string.Concat(chr.ToString(), num4.ToString());
+                    Range range = worksheet.get_Range(str2, str3);
+                    if (objArray != null)
+                    {
+                        object[,] item = objArrays[num2];
+                        range[Missing.Value] = item;
+                        range.BorderAround(XlLineStyle.xlContinuous, XlBorderWeight.xlThin, XlColorIndex.xlColorIndexAutomatic, Missing.Value);
+                    }
+                    num2++;
+                }
+                num = num1 + num2 + 1;
+                return num;
+            }
+            catch (Exception exception1)
+            {
+                Exception exception = exception1;
+                MessageBox.Show(string.Concat("ERROR, Fila ", exception.Message));
+            }
+            num = num1 + num2 + 1;
+            return num;
         }
     }
 }

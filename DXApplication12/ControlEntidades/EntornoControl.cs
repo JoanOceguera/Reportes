@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 
@@ -48,7 +49,7 @@ namespace ReportesApp.ControlEntidades
         {
             try
             {
-                cnx.Entorno.AddObject(entorno);
+                cnx.Entorno.Add(entorno);
                 cnx.SaveChanges();
             }
             catch (Exception msg)
@@ -79,7 +80,8 @@ namespace ReportesApp.ControlEntidades
                 Entorno entorn = this.GetEntorno(entorno.idEntorno);
                 if (entorn != null)
                 {
-                    cnx.Entorno.ApplyCurrentValues(entorn);
+                    cnx.Entry(entorn).CurrentValues.SetValues(entorno);
+                    cnx.Entry(entorn).State = EntityState.Modified;
                     cnx.SaveChanges();
                 }
             }

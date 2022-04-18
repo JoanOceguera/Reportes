@@ -66,6 +66,8 @@
     <Property Name="departamento" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="estado" Type="varchar" MaxLength="1" Nullable="false" />
     <Property Name="nombrePC" Type="varchar" MaxLength="50" />
+    <Property Name="orden" Type="int" />
+    <Property Name="observacionTecnica" Type="text" />
   </EntityType>
   <EntityType Name="ReporteSolucionado">
     <Key>

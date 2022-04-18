@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 
@@ -27,7 +28,7 @@ namespace ReportesApp.ControlEntidades
         {
             try
             {
-                cnx.Acceso.AddObject(acceso);            
+                cnx.Acceso.Add(acceso);            
                 cnx.SaveChanges();
             }
             catch (Exception)
@@ -47,7 +48,8 @@ namespace ReportesApp.ControlEntidades
                 Acceso acces = this.GetAcceso(acceso.idAcceso);
                 if (acces != null)
                 {
-                    cnx.Acceso.ApplyCurrentValues(acces);
+                    cnx.Entry(acces).CurrentValues.SetValues(acceso);
+                    cnx.Entry(acces).State = EntityState.Modified;
                     cnx.SaveChanges();
                 }
             }
